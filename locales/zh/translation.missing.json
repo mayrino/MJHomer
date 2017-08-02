@@ -1,0 +1,79 @@
+{
+   "locale": "locale",
+   "lng": "lng",
+   "layout": {
+      "title": "layout.title"
+   },
+   "index": {
+      "title": " 你好 世界!",
+      "welcome": "欢迎 敏捷毛绒！",
+      "new_arrive": "index.new_arrive",
+      "view_detail": "index.view_detail",
+      "subscription": "index.subscription",
+      "sub_placeholder": "index.sub_placeholder",
+      "btn_sub": "index.btn_sub"
+   },
+   "header": {
+      "shoppingCart": "header.shoppingCart",
+      "title": "header.title",
+      "home": "header.home",
+      "product": "header.product",
+      "shop": "header.shop",
+      "who": "header.who",
+      "serviceCenter": "header.serviceCenter",
+      "user": "header.user",
+      "zh": "header.zh",
+      "en": "header.en",
+      "lang": "中/英",
+      "signin": "header.signin",
+      "signup": "header.signup"
+   },
+   "subscribeSuccess": "subscribeSuccess",
+   "subscribe": {
+      "success": "subscribe.success"
+   },
+   "shop": {
+      "garment": "shop.garment",
+      "fabric": "shop.fabric",
+      "collar": "shop.collar",
+      "special": "shop.special",
+      "discount": "shop.discount",
+      "accessory": "shop.accessory",
+      "novel": "shop.novel"
+   },
+   "paginate": {
+      "prev": "paginate.prev"
+   },
+   " lng ": " lng ",
+   "product": {
+      "more ": "product.more ",
+      "addToCart ": "product.addToCart ",
+      "addToCar ": "product.addToCar ",
+      "addToCar": "product.addToCar",
+      "type": "product.type"
+   },
+   "curProduct": {
+      "type": "curProduct.type"
+   },
+   "{{product": {
+      "type}}": "{{product.type}}"
+   },
+   "{{ this }}": "{{ this }}",
+   "GREY": "GREY",
+   "GREEN": "GREEN",
+   "GOLD": "GOLD",
+   "exist": "exist",
+   "incorrect": "incorrect",
+   "notExist": "notExist",
+   "this": "this",
+   "邮箱已使用！": "邮箱已使用！",
+   "user": {
+      "incorrect": "user.incorrect"
+   },
+   "请先注册！": "请先注册！",
+   "密码错误！": "密码错误！",
+   "cart": {
+      "view": "cart.view",
+      "empty": "cart.empty"
+   }
+}

@@ -1,0 +1,86 @@
+
+{
+    "locale":"zh",
+    "lng":"?lng=zh",
+    "layout": {
+        "title": "敏捷毛绒 美丽诺纺织 毛绒 人造毛皮 长毛绒 杭州原基纺织品有限公司 MJ Mayrino 衣服 玩具 挂件 饰品 "
+    },
+    "index": {
+        "title": " 你好 世界!",
+        "welcome": "欢迎 敏捷毛绒！",
+        "new_arrive":"新品上市",
+        "view_detail":"更多细节",
+        "subscription":"关注我们！获得更多精彩！",
+        "btn_sub":"关注",
+        "sub_placeholder":"邮箱地址(reyesxie@foxmail.com)"
+    },
+    "header": {
+        "shoppingCart": "购物车",
+        "title": "敏捷毛绒服饰制品",
+        "home": "主页",
+        "product":"MJ产品",
+        "shop": "MJ商城",
+        "who": "我是谁",
+        "serviceCenter": "服务中心",
+         "user":"用户",
+        "zh":"中文",
+        "en":"英文",
+        "lang":"中/英",
+        "signin":"登录",
+        "signup":"注册",
+        "logout":"退出"
+    },
+    "backError":"系统运行错误，请稍后！",
+    "subscribe":{
+        "failure":"已经关注，谢谢！",
+        "success":"关注成功，谢谢！"
+    },
+    "shop":{
+        "garment":"MJ服饰",
+        "collar":"MJ毛领",
+        "fabric":"MJ面料",
+        "special":"特色区",
+        "discount":"MJ折扣店",
+        "accessory":"MJ饰品店",
+        "novel":"MJ上新面料"
+    },
+    "paginate":{
+        "prev":"上页",
+        "next":"下页"
+    },
+    "garment":{
+        "title":"各类服饰"
+    },
+    "product":{
+        "share":"分享",
+        "more":"更多",
+        "addToCart":"加入购物车",
+        "storeQty":"库存数量：",
+        "size":"尺寸:",
+        "color":"颜色：",
+        "quantity":"数量：",
+        "qqShare":"qq分享",
+        "wechatShare":"微信分享",
+        "weiboShare":"微博分享"
+    },
+     "BLACK":"黑色",
+     "RED":"红色", 
+     "BLUE":"蓝色",
+     "GREEN":"绿色",
+     "GOLD":"金黄",
+     "GREY":"灰色",
+     "user":{
+        "exist":"邮箱已使用！",
+        "notExist":"请先注册！",
+        "incorret":"密码错误！",
+        "email":"邮箱",
+        "password":"密码",
+        "profile":"用户中心"
+     },
+     "cart":{
+        "view":"查看购物车",
+        "empty":"空购物车",
+        "subtotal":"总计：",
+        "checkout":"结算"
+     }
+}

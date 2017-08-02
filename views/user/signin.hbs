@@ -1,0 +1,39 @@
+<div class="mayrino-main-panel">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-xs-12">
+            <div class="sign-panel">
+                <div class="sign-heading">
+                    <h1>{{t "header.signin"}}</h1>
+                </div>
+                <div class="sign-body">
+                 {{#if hasErrors }}
+                <div  class="bg-danger">
+                     {{# each messages}}
+                       <p>{{../t this}}</p>
+                    {{/each}} 
+                </div>
+                {{/if}}
+                    <form action="/user/signin" method="post" accept-charset="utf-8" id="user_form">
+                        <div class="form-group  input-group-lg">
+                            <label for="email">{{t "user.email" }}</label>
+                            <input  type="text" id="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group input-group-lg">
+                            <label for="password">{{t "user.password" }}</label>
+                            <input type="password" id="password" name="password" class="form-control">
+                        </div>
+
+                        <input type="hidden" name="_csrf" value="{{ csrfToken }}">
+                        <div class="form-group input-group-lg">
+                            <button type="submit" class="btn btn-primary form-control">{{t "header.signin" }}</button>
+                        </div>
+                    </form>
+                    <div class='form-helper'>
+                        <a class="btn btn-link btn-info" href="/users/password/new">Forgot your password?</a>
+                        <p>don't have a account&nbsp;&nbsp;<a href="/user/signup">please sign-up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,127 @@
+<div class="mayrino-main-panel">
+    <div class="row">
+        <div class="col-md-6 col-xs-12">
+            <ol class="breadcrumb pull-left">
+                <li><a class="btn btn-link" href="/">{{t "header.title" }}</a></li>
+                <li><a class="btn btn-link" href="{{#url product.type }}{{/url}}">{{t product.type }}</a></li>
+                <li class="active"><small>{{product.title}}</small></li>
+            </ol>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <ul class="breadcrumb pull-right">
+                <li><a href="/detail/{{#if prev }}{{ prev }}{{/if}}" class="btn btn-link {{#unless prev }} disabled {{/unless}}">{{t 'paginate.prev' }}</a></li>
+                <li><a href="/detail/{{#if next }}{{ next }}{{/if}}" class="btn btn-link {{#unless next }} disabled {{/unless}}">{{t 'paginate.next' }}</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="panel panel-default panel-detail">
+        <div class="row">
+            <div class="col-xs-12 col-md-7">
+                <div id="detail-main-img">
+                    <i class="fa fa-search pull-right" aria-hidden="true"></i> {{#each product.imagePath }} {{#if @first}}
+                    <img src="{{this}}" class="img-responsive" /> {{/if}} {{/each}}
+                </div>
+                <div style="margin-top: 10px;">
+                    <div class="btn-group">
+                        {{#each product.imagePath }}
+                        <div role="button" class="btn btn-default {{#if @first }} active {{/if}}" style="padding:5px;border-radius: 0px;margin-right: 5px;"><img width="48" height="48" alt="..." src="{{this}}"></div>
+                        {{/each}}
+                    </div>
+                </div>
+                <p style="margin-top: 25px;">
+                    {{ product.detail }}
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-5">
+                <form role="form">
+                    <div class="form-group">
+                        <h3>{{product.title}}</h3>
+                        <h5>{{t "product.storeQty" }}{{product.storeQty}}</h5>
+                    </div>
+                    <div class="form-group">
+                        <span>
+                            <s>
+                                <i class="fa fa-jpy" aria-hidden="true"></i>{{product.price}}
+                            </s>
+                        </span>
+                        <span style="padding-left: 10px;"><i class="fa fa-jpy" aria-hidden="true">{{product.discount}}</i>
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="size">{{t "product.size" }}</label>
+                        <br> {{#each product.size }}
+                        <label class="radio-inline">
+                            <input type="radio" name="size" value="{{ this }}" {{#if @first}} checked{{/if}}> {{ this }}
+                        </label>
+                        {{/each}}
+                    </div>
+                    <div class="form-group">
+                        <label>{{t "product.color" }}<span id="lbl_color" sr-only></span></label>
+                        <div class="color-group">
+                            {{#each product.color }}
+                            <div role="button" class="color-btn">
+                                <span class="color-span {{#if @first}} active {{/if}}">
+                                    <span style="background-color: {{this}};width: 18px; height: 18px;display:block;border-radius: 50%;box-shadow:  1px {{this}};-webkit-box-shadow:  1px {{this}};"><span class="sr-only">{{../t  this  }}</span>
+                                </span>
+                                </span>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">{{t "product.quantity" }}</label>
+                        <input list="quantity" style="border-radius: 0px;" class="form-control" placeholder="1">
+                        <datalist id="quantity">
+                            <option value="1" />
+                            <option value="2" />
+                            <option value="3" />
+                            <option value="4" />
+                            <option value="5" />
+                        </datalist>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-lg btn-block cart-btn">{{t "product.addToCart" }}</button>
+                    </div>
+                </form>
+                <div role="presentation" class="detail-divider"></div>
+                <div class="panel panel-default panel-detail">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+        <a data-toggle="collapse"  id="oneController" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           PRODUCT INOF <small>Subtext for header</small>
+           <i class="fa fa-minus pull-right" aria-hidden="true"></i>
+        </a>
+      </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            {{ product.description }}
+                        </div>
+                    </div>
+                </div>
+                <div role="presentation" class="detail-divider"></div>
+                <div class="panel panel-default panel-detail">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed"  id="twoController" data-toggle="collapse"  href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                               RETURN AND REFUND<small>Subtext for header</small><i class="fa fa-minus pull-right" aria-hidden="true"></i>
+
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            {{product.refundPolicy}}
+                        </div>
+                    </div>
+                </div>
+                <div role="presentation" class="detail-divider"></div>
+                <div class="btn-group">
+                    <a href="#" data-toggle="tooltip" title="{{t 'product.weiboShare'}}" class="btn" role="button" style="padding:0px;margin:0px 5px;"><img class="img-circle" style="width: 32px; height: 32px; " alt="bootstrap" src="/images/shareicons/sina.png" /> </a>
+                    <a href="#" data-toggle="tooltip" title="{{t 'product.wechatShare'}}" class="btn" role="button" style="padding:0px;margin:0px 5px;"><img class="img-circle" style="width: 32px; height: 32px;" alt="bootstrap" src="/images/shareicons/wx.png" /> </a>
+                    <a href="#" data-toggle="tooltip" title="{{t 'product.qqShare'}}" class="btn" role="button" style="padding:0px;margin:0px 15px 0px 5px ;"><img class="img-circle" style="width: 32px; height: 32px;" alt="bootstrap" src="/images/shareicons/qq2.png" /> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

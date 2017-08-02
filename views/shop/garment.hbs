@@ -1,0 +1,29 @@
+<div class="jumbotron" style="margin-top: -30px; margin-bottom: 0px;">
+    <div class="container text-center">
+        <h2>{{t "garment.title" }}</h2>
+    </div>
+    <div class="container-fluid panel panel-default">
+        <div class="mayrino-main-panel">
+            {{>paginate}} {{# each products}}
+            <div class="row">
+                {{# each this}}
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail img-box">
+                        {{#each this.imagePath }} {{#if @first}}
+                        <img role="button" src="{{ this }}" /> {{/if}} {{/each}}
+                        <a href="/detail/{{ this._id }}" class="hidden" role="button"></a>
+                        <a href="/share/{{ this._id }}" class="btn btn-danger up-right" role="button"> {{../../t  "product.share" }}</a>
+                        <a href="/more/{{ this._id }}" class="btn btn-primary down-right " role="button">{{../../t  "product.more" }}</a>
+                        <div class="img-box-detail clearfix ">
+                            <a class="btn btn-link btn-info pull-left ">{{ this.title 
+                            }}</a>
+                            <a href="/shop/add-to-cart/{{ this._id }} " class="btn btn-link pull-right btn-success" role="button">{{../../t  "product.addToCart" }}</a>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            {{/each}} {{>paginate}}
+        </div>
+    </div>
+</div>

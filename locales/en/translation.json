@@ -1,0 +1,85 @@
+{
+    "locale": "en",
+    "lng": "?lng=en",
+    "layout": {
+        "title": "Mayrino web site for plush and garments"
+    },
+    "index": {
+        "title": "hello world!",
+        "welcome": "welcome mayrino",
+        "new_arrive": "NEW ARRIVES",
+        "view_detail": "VIEW DETAIL",
+        "subscription": "GET THIS BOX YOU HAVE MORE SWEET",
+        "btn_sub": "subscription",
+        "sub_placeholder": "Email(reyesxie@foxmail.com)"
+    },
+    "header": {
+        "shoppingCart": "Cart",
+        "title": "MAYRINO",
+        "home": "HOME",
+        "product": "PRODUCT",
+        "shop": "SHOP",
+        "who": "WHO AM I",
+        "serviceCenter": "SERVICECENTER",
+        "user": "USER",
+        "zh": "Chinese",
+        "en": "English",
+        "lang": "language",
+        "signin": "SignIn",
+        "signup": "SignUp",
+        "logout":"Logout"
+    },
+    "backError": "web running failure,please try again later",
+    "subscribe": {
+        "failure": "email already used,thanks！",
+        "success": "subscribe successful,thanks！"
+    },
+    "shop":{
+        "garment":"Garment",
+        "collar":"Collar",
+        "fabric":"Fabric",
+        "special":"Special",
+        "discount":"Discount",
+        "accessory":"Accessory",
+        "novel":"Novel"
+    },
+    "paginate":{
+        "prev":"Prev",
+        "next":"Next"
+    },
+    "garment":{
+        "title":"APPAREL"
+    },
+     "product":{
+        "share":"Share",
+        "more":"More",
+        "addToCart":"Add-to-cart",
+         "storeQty":"StoreQty:",
+        "size":"Size:",
+        "color":"Color:",
+        "quantity":"Quantity:",
+        "qqShare":"QQShare",
+        "wechatShare":"WechatShare",
+        "weiboShare":"WeiboShare"
+    },
+    "BLACK":"black",
+     "RED":"red", 
+     "BLUE":"blue",
+     "GREEN":"green",
+     "GOLD":"gold",
+     "GREY":"grey",
+    "user":{
+        "exist":"email is already in use.",
+        "notExist":"user not exist! please registrer",
+        "incorret":"incorret password!",
+        "email":"Email",
+        "password":"Password",
+        "profile":"MyAccount"
+     },
+      "cart":{
+        "view":"VIEW CART",
+        "empty":"CART IS EMPTY!",
+        "subtotal":"Subtotal:",
+        "checkout":"Checkout"
+     }
+}

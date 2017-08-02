@@ -1,0 +1,3315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"np",
+				"nbsp\t&nbsp;"
+			],
+			[
+				"orv",
+				"overflow-y"
+			],
+			[
+				"sh",
+				"shopping"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"arti",
+				"articles"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"is",
+				"isLoggedIn"
+			],
+			[
+				"pas",
+				"passport〔variable〕"
+			],
+			[
+				"ini",
+				"initial"
+			],
+			[
+				"pa",
+				"passport"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"acce",
+				"accept-charset\tAttr"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"curr",
+				"currDoc"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"br",
+				"br\tTag"
+			],
+			[
+				"pr",
+				"prevProduct"
+			],
+			[
+				"rele",
+				"relative〔variable〕"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"rou",
+				"routes〔variable〕"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"va",
+				"value2"
+			],
+			[
+				"valu",
+				"value1〔variable〕"
+			],
+			[
+				"vl",
+				"value2"
+			],
+			[
+				"o",
+				"options"
+			],
+			[
+				"page",
+				"pageCount"
+			],
+			[
+				"forea",
+				"foreach〔variable〕"
+			],
+			[
+				"sub",
+				"submitHandler"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"mou",
+				"mouseOut〔function〕"
+			],
+			[
+				"inner",
+				"innerTextForImg"
+			],
+			[
+				"before",
+				"beforeSubmit"
+			],
+			[
+				"insta",
+				"instanceof〔keyword〕"
+			],
+			[
+				"req",
+				"require〔function〕"
+			],
+			[
+				"func",
+				"function〔keyword〕"
+			],
+			[
+				"mongo",
+				"mongoose〔variable〕"
+			],
+			[
+				"path",
+				"path.join();"
+			],
+			[
+				"process",
+				"process.cwd();"
+			],
+			[
+				"pro",
+				"process〔variable〕"
+			],
+			[
+				"upp",
+				"uppercase"
+			],
+			[
+				"r",
+				"round〔function〕"
+			],
+			[
+				"mon",
+				"mongoose〔variable〕"
+			],
+			[
+				"button",
+				"button"
+			],
+			[
+				"i",
+				"i18next-express-middleware"
+			],
+			[
+				"htt",
+				"http〔variable〕"
+			],
+			[
+				"os",
+				"os.tmpdir();"
+			],
+			[
+				"http",
+				"http://127.0.0.1:3000"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"b",
+				"Blueberry"
+			],
+			[
+				"console",
+				"console.info();"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"cl",
+				"click〔function〕"
+			],
+			[
+				"s",
+				"script\t<script>"
+			],
+			[
+				"te",
+				"type"
+			],
+			[
+				"js",
+				"javascript"
+			],
+			[
+				"std",
+				"stdout"
+			],
+			[
+				"get",
+				"getdefaultlocale〔function〕"
+			],
+			[
+				"sublim",
+				"sublime_plugin"
+			],
+			[
+				"in",
+				"insert〔function〕"
+			],
+			[
+				"prin",
+				"print〔function〕"
+			],
+			[
+				"plu",
+				"plugin_path"
+			],
+			[
+				"st",
+				"stdout"
+			],
+			[
+				"working",
+				"working_dir"
+			],
+			[
+				"Node",
+				"nodejs"
+			],
+			[
+				"O",
+				"fs.constants.O_NOCTTY"
+			],
+			[
+				"btn",
+				"btn-link"
+			],
+			[
+				"text-t",
+				"text-decoration"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"gl",
+				"glyphicon-comment"
+			],
+			[
+				"gly",
+				"glyphicon-folder-close"
+			],
+			[
+				"g",
+				"glyphicon"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"backgrount",
+				"background-repeat"
+			],
+			[
+				"trans",
+				"translate3d"
+			],
+			[
+				"sca",
+				"scale3d()"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"scale",
+				"scale3d()"
+			],
+			[
+				"scal",
+				"scale3d()"
+			],
+			[
+				"con",
+				"console.log();"
+			],
+			[
+				"tr",
+				"translate3d()"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"product",
+				"ProductCarousel"
+			],
+			[
+				"direction",
+				"getPanelForDirection"
+			],
+			[
+				"getPanel",
+				"getPanelForDirection"
+			],
+			[
+				"cleae",
+				"clearInterval(timer);"
+			],
+			[
+				"set",
+				"setTimeout(callback, after);"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"rep",
+				"background-repeat"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"col",
+				"col-md-5"
+			],
+			[
+				"clo",
+				"col-xs-12"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"nu",
+				"util.isNull(arg);"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"cat",
+				"cart-view-row"
+			],
+			[
+				"node",
+				"node-link"
+			],
+			[
+				"PA",
+				"padding-right"
+			],
+			[
+				"co",
+				"col-md-6"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mr",
+				"margin-right"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"ov",
+				"overflow-x"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"ma",
+				"max-height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 3883,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "var express = require('express');\nvar router = express.Router();\nvar Subscription = require('../models/subscription');\nvar Cart = require('../models/cart');\nvar Product = require('../models/product');\nvar paginate = require('express-paginate');\nvar Join = require(\"bluebird\").join;\n\n\n// keep this before all routes that will use pagination\nrouter.use(paginate.middleware(6, 50));\n\n/* GET home page. */\nrouter.get('/', function(req, res, next) {\n    res.render('site/index');\n});\n\n/* GET product detail page. */\nrouter.get('/detail/:id', function(req, res, next) {\n    var productId = req.params.id;\n    var current, nextPro, prevPro;\n    Join(Product.findById(productId), Product.findOne({ _id: { $lt: productId } }).sort({ _id: -1 }), Product.findOne({ _id: { $gt: productId } }).sort({ _id: 1 }), function(currDoc, prevDoc, nextDoc) {\n        current = currDoc;\n        prevPro = prevDoc ? prevDoc._id : prevDoc;\n        nextPro = nextDoc ? nextDoc._id : nextDoc;\n        res.render('shop/detail', { product: current, next: nextPro, prev: prevPro });\n    });\n});\n\n/* GET shopping cart  page. */\n\nrouter.get('/shop/cart', function(req, res, next) {\n    console.log(\"mini\" + req.xhr);\n    var isMini = req.xhr ? true :false;\n    if (!req.session.cart) {       \n        if (isMini) {\n            return res.render('shop/miniCart',{ articles: null, layout:false });\n        }\n        return res.render('shop/cart',  { articles: null });\n    }\n    var cart = new Cart(req.session.cart);\n    if (isMini) {\n       return res.render('shop/miniCart', { articles: cart.generateArray(), totalPrice: cart.totalPrice ,layout:false });\n    }\n    return res.render('shop/cart', { articles: cart.generateArray(), totalPrice: cart.totalPrice  });\n});\n\n\n/* GET home page. */\nrouter.get('/shop/garment', function(req, res, next) {\n\n    Product.paginate({}, { page: req.query.page, limit: req.query.limit }, function(err, docs) {\n\n        if (err) return next(err);\n        var products = docs.docs;\n        var productChunks = [];\n        var chunkSize = 3;\n        for (var i = 0; i < products.length; i += chunkSize) {\n            productChunks.push(products.slice(i, i + chunkSize));\n        }\n        res.format({\n            html: function() {\n                res.render('shop/garment', {\n                    products: productChunks,\n                    pageCount: docs.pages,\n                    itemCount: docs.total,\n                    pages: paginate.getArrayPages(req)(2, docs.pages, req.query.page),\n                    hasNext: paginate.hasNext(req, docs.pages),\n                    prevUrl: paginate.linkUrl(req, true),\n                    nextUrl: paginate.linkUrl(req)\n                });\n            }\n        });\n    });\n});\n\n\n/*POST subscription*/\nrouter.post('/subscribe', function(req, res, next) {\n    var newSubscribe = new Subscription({ email: req.body.email });\n    newSubscribe.save().then(function(subscribe) {\n        return res.send(req.t('subscribe.success'));\n    }, function(subscribe) {\n        return res.send(req.t('subscribe.failure'));\n    }).catch(function(err) {\n        return res.send(req.t('backError'));\n    });\n\n});\n\n\n/*add to cart*/\n\nrouter.get('/shop/add-to-cart/:id', function(req, res, next) {\n    var productId = req.params.id;\n    var cart = new Cart(req.session.cart ? req.session.cart : {});\n\n    Product.findById(productId).\n    then(function(product) {\n        cart.add(product, product.id);\n        req.session.cart = cart;\n        console.info(req.session.cart);\n        res.redirect('/shop/garment');\n\n    }, function(err) {\n        return next(err);\n    });\n});\n\nmodule.exports = router;",
+			"file": "routes/index.js",
+			"file_size": 3628,
+			"file_write_time": 131460629819577714,
+			"settings":
+			{
+				"buffer_size": 3629,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/layouts/layout.hbs",
+			"settings":
+			{
+				"buffer_size": 1815,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"mayrino-main-panel\">\n    <div class=\"panel panel-default panel-detail\">\n        <div class=\"row\" style=\"padding-bottom: 20px;\">\n            <div class=\"col-md-3\"><span style=\"font-size: 28px;\">{{t \"header.shoppingCart\" }}(<span class=\"item-count\" style=\"\">{{ session.cart.totalQty }}</span>)</span>\n            </div>\n            <div class=\"col-md-9\">\n                <button type=\"button\" class=\"btn btn-lg pull-right cart-detail-btn\" style=\"min-width: 283px;\" {{#unless articles }} disabled=\"disabled\" {{/unless}}>{{t \"cart.checkout\"}}</button>\n            </div>\n        </div>\n       {{#if articles }}\n        <div class=\"row\">\n            <div class=\"col-md-2 col-xs-3\">\n                <span><h4><strong>产&nbsp;品</strong></h4></span>\n            </div>\n            <div class=\"col-md-4 col-xs-3\">\n                <span><h4><strong>商品</strong></h4></span>\n            </div>\n            <div class=\"col-md-3 col-xs-3\">\n                <span class=\"text-center\"><h4><strong>数量</strong></h4></span>\n            </div>\n            <div class=\"col-md-3 col-xs-3\">\n                <span class=\"text-right\"><h4><strong>金额</strong></h4></span>\n            </div>\n        </div>\n        {{#each articles }}\n        <div class=\"row cart-view-row\">\n            <div class=\"col-md-2 col-xs-3\">\n                {{#each this.item.imagePath }}\n                {{#if @first }}\n                <a><img src=\"{{this}}\" class=\"img-responsive\"></a>\n                {{/if }}\n                {{/each}}\n            </div>\n            <div class=\"col-md-4 col-xs-3\">\n                <ul class=\"list-unstyled\">\n                    <li><span>{{this.item.title}}</span></li>\n                    <li><span><small>编号：0018</small></span></li>\n                    <li><span><small>尺寸：M</small></span></li>\n                    <li><span><small>颜色：黑色</small></span></li>\n                    <li><span><small>价格：</span><span><s>$19.99</s></span><span>&nbsp;&nbsp;$14.99</span></small>\n                    </li>\n                </ul>\n                <div><a class=\"btn-link item-remove\"><small>移除</small></a></div>\n            </div>\n            <div class=\"col-md-3 col-xs-3 text-center\">\n                <span aria-hidden=\"true\" class=\"glyphicon glyphicon-minus\" role=\"icon\"></span>\n                <input type=\"text\" value=\"10\"  class=\"text-center\" size=\"1\" name=\"\">\n                <input type=\"hidden\" value=\"$19.99\">\n                <span aria-hidden=\"true\" class=\"glyphicon glyphicon-plus\" role=\"icon\"></span>\n            </div>\n            <div class=\"col-md-3 col-xs-3 text-right\">\n                <span class=\"subtotal\">$199.90</span>\n            </div>\n        </div>\n        {{/each}}\n        <div class=\"row cart-view-row\">\n            <div class=\"col-md-6 col-xs-12\">\n                <button id=\"nodeLink\" class=\"btn btn-link node-link\"><span class=\"glyphicon glyphicon-edit\"></span>&nbsp;add note to seller</button>\n                <div id=\"nodeShowPanel\" ><p><strong>Node to seller:</strong><span id=\"nodeShow\"></span></p>\n                  <button id=\"nodeEditBtn\" class=\"btn btn-link node-link\"><span class=\"glyphicon glyphicon-edit\"></span>&nbsp;edit node</button>\n                   <button id=\"nodeTrashBtn\" class=\"btn btn-link node-link\"><span class=\"glyphicon glyphicon-trash\"></span>&nbsp;delete node</button>\n                </div>\n                <div  class=\"form-group\" id=\"node\">\n                <textarea  class=\"form-control\" rows=3\"   id=\"nodeEdit\" name=\"node-edit\" placeholder=\"instruction?Special requests?Add them here.\"></textarea>\n                 <button  id=\"doneNodeBtn\" class=\"btn pull-right done-link cart-detail-btn \">DONE</button>\n                   <button id=\"cancleNodeBtn\" class=\"btn btn-link pull-right cancel-link\">CANCEL</button>\n                  \n                </div>\n            </div>\n       \n            <div class=\"col-md-6 col-xs-12 text-right\">\n                <h4>总金额：<span id=\"amount\">$219.89</span></h4>\n                <p>Discounts, shipping and tax will be calculated in checkout.\n                </p>\n            </div>\n        </div>\n          {{else}}\n              <h3 class=\"text-center\">{{t \"cart.empty\" }}</h3>\n            {{/if}}\n       \n        <div class=\"row cart-view-row\">\n            <div class=\"col-md-6\">\n                <img class=\"img-responsive\" width=\"180\" src=\"/images/security-seal-2x.png\"></div>\n            <div class=\"col-md-6\">\n                <button type=\"button\" class=\"btn btn-lg pull-right cart-detail-btn\" style=\"min-width: 283px;max-width: 530px;\"\" {{#unless articles }} disabled=\"disabled\" {{/unless}}>{{t \"cart.checkout\"}}</button>\n            </div>\n        </div>\n    </div>\n</div>\n",
+			"file": "views/shop/cart.hbs",
+			"file_size": 4813,
+			"file_write_time": 131461213312127880,
+			"settings":
+			{
+				"buffer_size": 4668,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/partials/header.hbs",
+			"settings":
+			{
+				"buffer_size": 4590,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "locales/zh/translation.json",
+			"settings":
+			{
+				"buffer_size": 1876,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "locales/en/translation.json",
+			"settings":
+			{
+				"buffer_size": 2225,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/stylesheets/layout.css",
+			"settings":
+			{
+				"buffer_size": 18632,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/cart.js",
+			"settings":
+			{
+				"buffer_size": 6833,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"MJHomer",
+					""
+				],
+				[
+					"MJHomer",
+					"running MJHomer"
+				],
+				[
+					"MJHomer",
+					"running Debug MJHomer"
+				]
+			],
+			[
+				"MJHomer",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					""
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"All Syntaxes"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Performance"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Regex Compatibility"
+				]
+			],
+			[
+				"Packages/Default/Syntax Tests.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Run",
+					""
+				],
+				[
+					"Run",
+					"run MJHomer"
+				],
+				[
+					"Run",
+					"stop  MJHomer"
+				],
+				[
+					"Run",
+					"restart  MJHomer"
+				]
+			],
+			[
+				"Run",
+				"run MJHomer"
+			]
+		],
+		[
+			[
+				[
+					"Run",
+					""
+				],
+				[
+					"Run",
+					"running MJHomer"
+				],
+				[
+					"Run",
+					"running Debug MJHomer"
+				]
+			],
+			[
+				"Run",
+				"running MJHomer"
+			]
+		],
+		[
+			[
+				[
+					"debug MJHomer",
+					""
+				],
+				[
+					"debug MJHomer",
+					"running MJHomer"
+				]
+			],
+			[
+				"debug MJHomer",
+				"running MJHomer"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 215.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontrol in",
+				"Package Control: Install Package"
+			],
+			[
+				"package controli",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"run",
+				"Build With: run tools - running...."
+			],
+			[
+				"ru",
+				"Build With: run tools - running...."
+			],
+			[
+				"node un",
+				"Nodejs::NPM::Uninstall"
+			],
+			[
+				"node ",
+				"Nodejs::NPM::Command"
+			],
+			[
+				"node in",
+				"Nodejs::NPM::Install"
+			],
+			[
+				"node install",
+				"Nodejs::NPM::Install"
+			],
+			[
+				"noun",
+				"Nodejs::User File Settings"
+			],
+			[
+				"node",
+				"Nodejs::NPM::Command"
+			],
+			[
+				"nodeun",
+				"Nodejs::NPM::Uninstall"
+			],
+			[
+				"no",
+				"Nodejs::NPM::Install"
+			],
+			[
+				"runt",
+				"Build With: run tools - running...."
+			],
+			[
+				"seth",
+				"Set Syntax: HTML"
+			],
+			[
+				"sets",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss j",
+				"Set Syntax: JSON"
+			],
+			[
+				"sj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setj",
+				"Set Syntax: JSON"
+			],
+			[
+				"nodese\t",
+				"Nodejs::NPM::Search"
+			],
+			[
+				"set syntax:\t",
+				"Set Syntax: JSON"
+			],
+			[
+				"set ",
+				"Set Syntax: HTML"
+			],
+			[
+				"runn",
+				"Build With: run tools - running...."
+			],
+			[
+				"set sy",
+				"Set Syntax: HTML"
+			],
+			[
+				"set js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				" set js",
+				"Set Syntax: JSON"
+			],
+			[
+				"setsyntax:n",
+				"Set Syntax: JSON"
+			],
+			[
+				"setjs",
+				"Set Syntax: JSON"
+			],
+			[
+				"dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"lin",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"packagecontrol",
+				"Package Control: Discover Packages"
+			],
+			[
+				"set j",
+				"Set Syntax: JSON"
+			],
+			[
+				"node search",
+				"Nodejs::NPM::Search"
+			],
+			[
+				"NODE",
+				"Nodejs::NPM::Uninstall"
+			],
+			[
+				"node s",
+				"Nodejs::NPM::Search"
+			],
+			[
+				"RUNT",
+				"Build With: run tools - running...."
+			],
+			[
+				"set h",
+				"Set Syntax: HTML"
+			],
+			[
+				"nodejs",
+				"Nodejs::NPM::Install"
+			],
+			[
+				" pc di",
+				"Package Control: Disable Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"stop",
+				"Build With: Run - stop  MJHomer"
+			],
+			[
+				"package re",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"Run m",
+				"Build With: Run - run MJHomer"
+			],
+			[
+				"mj",
+				"Build With: Run - running MJHomer"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"ali",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"package control di",
+				"Package Control: Discover Packages"
+			],
+			[
+				"linter du",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"lin no co",
+				"SublimeLinter: No Column Highlights Entire Line"
+			],
+			[
+				"nodejs search ",
+				"Nodejs::NPM::Search"
+			],
+			[
+				"PACKAGE CONTROL",
+				"Package Control: Enable Package"
+			],
+			[
+				" ls unman",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"package control ",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pakcage control en",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"package control",
+				"Package Control: Disable Package"
+			],
+			[
+				"package c up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"lint th",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"packcontrol ls",
+				"Package Control: List Packages"
+			],
+			[
+				"nodejs install",
+				"Nodejs::NPM::Install"
+			],
+			[
+				"nodejs search",
+				"Nodejs::NPM::Search"
+			],
+			[
+				"packagecontrol:insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: img"
+			],
+			[
+				"bh hight",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"",
+				"BracketHighlighter: Select Tag Name (closing and opening)"
+			],
+			[
+				"sinppet",
+				"Snippet: html"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"theme ",
+				"SublimeLinter: Choose Tooltip Theme"
+			],
+			[
+				"packagecontro re",
+				"Package Control: Remove Package"
+			],
+			[
+				"bh",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"nodej",
+				"Nodejs::NPM::Search"
+			],
+			[
+				" bh sh",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"bh sho",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"bh sh",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				" bh  offs",
+				"BracketHighlighter: Find Matching Offscreen Bracket"
+			],
+			[
+				" bh ",
+				"BracketHighlighter: Toggle String Bracket Escape Mode"
+			],
+			[
+				" bg ",
+				"BracketHighlighter: Toggle String Bracket Escape Mode"
+			],
+			[
+				"packcon dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packcond",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packcontrol",
+				"Package Control: Enable Package"
+			],
+			[
+				"noj",
+				"Nodejs::NPM::Search"
+			],
+			[
+				"git",
+				"Git: Add All"
+			],
+			[
+				"set syntax:p",
+				"Set Syntax: Python"
+			],
+			[
+				"synta",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"nodejss",
+				"Nodejs::NPM::Search"
+			],
+			[
+				"santi",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"pack control",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packcontro",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack en",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"PACK IN",
+				"Package Control: Install Package"
+			],
+			[
+				"PACK RE",
+				"Package Control: Remove Package"
+			],
+			[
+				"PACK DI",
+				"Package Control: Disable Package"
+			],
+			[
+				"packageControl",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"subl",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"packagecontrol:",
+				"Package Control: Disable Package"
+			],
+			[
+				"packagecontrol:up",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"nodejs::b",
+				"Nodejs::Build Completions"
+			],
+			[
+				"nodejs::cu",
+				"Nodejs::Build Completions"
+			],
+			[
+				"NODEJS",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"nodejs::NPM",
+				"Nodejs::NPM::List"
+			],
+			[
+				"nodejs:DO",
+				"Nodejs::Build Completions"
+			],
+			[
+				"nodejs:",
+				"Nodejs::NPM::Install"
+			],
+			[
+				"pack re",
+				"Package Control: Remove Package"
+			],
+			[
+				"node :bu",
+				"Nodejs::Build Completions"
+			],
+			[
+				"nm",
+				"Nodejs::NPM::Command"
+			],
+			[
+				"npm ",
+				"Nodejs::Build Completions"
+			],
+			[
+				"packagecontrol:ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"packagecontrol:di",
+				"Package Control: Disable Package"
+			],
+			[
+				"packagecontrol:en",
+				"Package Control: Enable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Build",
+				"Build: New Build System"
+			],
+			[
+				"B",
+				"Build: Cancel"
+			],
+			[
+				"build",
+				"Build: Cancel"
+			],
+			[
+				"packcontrol:en",
+				"Package Control: Enable Package"
+			],
+			[
+				"sn",
+				"Snippet: if"
+			],
+			[
+				"s",
+				"Set Syntax: CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reove",
+				"Package Control: Remove Package"
+			],
+			[
+				" install",
+				"Package Control: Install Package"
+			],
+			[
+				"sin",
+				"Set Syntax: Diff"
+			],
+			[
+				"pack con in",
+				"Package Control: Install Package"
+			],
+			[
+				"time",
+				"Emmet: Increment Number by 10"
+			],
+			[
+				"Snippet: time",
+				"Snippet: <time>"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <datalist>"
+			]
+		],
+		"width": 792.0
+	},
+	"console":
+	{
+		"height": 166.0,
+		"history":
+		[
+			"mkdir ",
+			"mkdir /?",
+			"mkdir/?",
+			"mddir shopping-cart",
+			"reload",
+			"import this",
+			"sublime.log_commands(True)",
+			"y",
+			"clean",
+			"subl -v",
+			"subl -h",
+			"-h",
+			"cle",
+			"clean",
+			"clear",
+			"subl -v",
+			"subl -h",
+			"subl --help",
+			"-h",
+			"subl -h",
+			"python",
+			"python -c 'import sys; print sys.stdout.encoding'",
+			"subl -v",
+			"subl ",
+			"subl.version()",
+			"subl --project",
+			"sulb --project",
+			"version()",
+			"subl",
+			"subl --porject",
+			"npm search grunt",
+			"subl.version()",
+			"getcwd()",
+			"os.getcwd()",
+			"npm --version",
+			"npm install jake",
+			"node",
+			"set debug=myapp1 & npm start",
+			"sublime.versiton()",
+			"sublime.help()",
+			"sublime.version()",
+			"sublime().version",
+			"subl --version",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"sublime.version()",
+			"sublime.vertion()",
+			"sublime.versiton()",
+			"Nodejs",
+			"nodejs",
+			"git clone https://github.com/victorporof/Sublime-HTMLPrettify.git %APPDATA%/Sublime\\ Text\\ 3/Packages/Sublime-HTMLPrettify ",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', ' ')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"taskkill /F /IM node.exe & node E:\\Node.js\\express\\myapp1\\routes\\test.js",
+			"import urllib.request,os; pf = 'PackageControl.sublime-package'; ipp = sublime.installed_packages_path();urllib.request.install_opener( urllib.request.build_opener(urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf),'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace('','%20')).read())",
+			"exit",
+			"view.settings().get('font_face')",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/D/Node.js/express/MJHomer",
+		"/D/Node.js/express/MJHomer/bin",
+		"/D/Node.js/express/MJHomer/config",
+		"/D/Node.js/express/MJHomer/locales",
+		"/D/Node.js/express/MJHomer/locales/en",
+		"/D/Node.js/express/MJHomer/locales/zh",
+		"/D/Node.js/express/MJHomer/public",
+		"/D/Node.js/express/MJHomer/views",
+		"/D/Node.js/express/MJHomer/views/layouts",
+		"/D/Node.js/express/MJHomer/views/partials",
+		"/D/Node.js/express/MJHomer/views/shop",
+		"/D/Node.js/express/MJHomer/views/site",
+		"/D/Node.js/express/MJHomer/views/user"
+	],
+	"file_history":
+	[
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/gtm-sublime3-plugin/gtm.sublime-settings",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/Git/README.markdown",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/D/Node.js/express/MJHomer/views/shop/miniCart.hbs",
+		"/D/Node.js/express/MJHomer/locales/en/translation.json",
+		"/D/Node.js/express/MJHomer/locales/zh/translation.json",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/D/Node.js/express/MJHomer/public/stylesheets/layout.css",
+		"/D/Node.js/express/MJHomer/public/javascripts/cart.js",
+		"/D/Node.js/express/MJHomer/models/cart.js",
+		"/D/Node.js/express/MJHomer/build/config.gypi",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/windows-build-tools/README.md",
+		"/D/Node.js/express/MJHomer/views/layouts/layout.hbs",
+		"/D/Node.js/express/MJHomer/node_modules/jsdom/README.md",
+		"/D/Node.js/express/MJHomer/views/site/index.hbs",
+		"/D/Node.js/express/MJHomer/views/partials/header.hbs",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/node-gyp/README.md",
+		"/C/Program Files (x86)/MSBuild/Microsoft.Cpp/v4.0/V140/Platforms/x64/PlatformToolsets/v140/Toolset.targets",
+		"/C/Program Files (x86)/MSBuild/Microsoft.Cpp/v4.0/V140/Platforms/Win32/PlatformToolsets/v140/Toolset.targets",
+		"/D/Node.js/express/MJHomer/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp936.json",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/node-gyp/gyp/pylib/gyp/MSVSVersion.py",
+		"/C/Program Files/nodejs/node_modules/npm/node_modules/node-gyp/gyp/pylib/gyp/MSVSVersion.py",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/express/lib/application.js",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/express/lib/express.js",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/express-generator/package.json",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/node-gyp/bin/node-gyp.js",
+		"/C/Program Files/nodejs/node_modules/npm/README.md",
+		"/D/Node.js/express/MJHomer/package.json",
+		"/D/Node.js/express/MJHomer/node_modules/jsdom/lib/api.js",
+		"/C/Program Files/nodejs/node_modules/npm/bin/node-gyp-bin/node-gyp.cmd",
+		"/C/Program Files/nodejs/node_modules/npm/configure",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node-gyp.cmd",
+		"/C/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe.config",
+		"/C/Program Files/nodejs/node_modules/npm/node_modules/node-gyp/package.json",
+		"/D/Node.js/express/MJHomer/public/javascripts/index.js",
+		"/D/Node.js/express/MJHomer/models/user.js",
+		"/D/Node.js/express/MJHomer/public/javascripts/user.js",
+		"/D/Node.js/express/MJHomer/views/shop/cart.hbs",
+		"/D/Node.js/express/MJHomer/routes/index.js",
+		"/D/Node.js/express/MJHomer/config/passport.js",
+		"/D/Node.js/express/MJHomer/node_modules/express-handlebars/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/User/Nodejs.sublime-settings",
+		"/D/Node.js/express/MJHomer/node_modules/bcrypt/lib/binding/bcrypt_lib.node",
+		"/D/Node.js/express/MJHomer/views/partials/miniCart.hbs",
+		"/D/Node.js/express/MJHomer/views/shop/garment.hbs",
+		"/D/Node.js/express/MJHomer/public/javascripts/validate_messages_zh.js",
+		"/D/Node.js/express/MJHomer/views/user/profile.hbs",
+		"/D/Node.js/express/MJHomer/routes/user.js",
+		"/D/Node.js/express/MJHomer/views/user/signup.hbs",
+		"/D/Node.js/express/MJHomer/views/user/signin.hbs",
+		"/D/Node.js/express/MJHomer/node_modules/express-validator/lib/express_validator.js",
+		"/D/Node.js/express/MJHomer/node_modules/express-validator/node_modules/lodash/_LazyWrapper.js",
+		"/D/Node.js/express/MJHomer/public/javascripts/validate.js",
+		"/D/Node.js/express/MJHomer/node_modules/passport/lib/authenticator.js",
+		"/D/Node.js/express/MJHomer/node_modules/passport/lib/index.js",
+		"/D/Node.js/express/MJHomer/public/javascripts/garment.js",
+		"/D/Node.js/express/MJHomer/MJHomer.sublime-project",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-settings",
+		"/D/Node.js/express/MJHomer/bin/www",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/javascript/hotloader.js",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/package.json",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/node_modules/watch/main.js",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/javascript/hotnode.js",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/javascript/app.js",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/Nodejs/node_modules/.bin/uglifyjs",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/Nodejs/node_modules/uglify-js/lib/utils.js",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/Nodejs/tools/uglify_js.js",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/float.patch",
+		"/D/Node.js/express/MJHomer/node_modules/express-handlebars/node_modules/handlebars/node_modules/optimist/example/bool.js",
+		"/D/Node.js/express/MJHomer/node_modules/express-handlebars/node_modules/handlebars/node_modules/optimist/readme.markdown",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose/node_modules/mongodb/lib/mongos.js",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/grunt-cli/lib/cli.js",
+		"/D/nodejs/node-v8.2.1-win-x64/README.md",
+		"/D/Node.js/express/MJHomer/node_modules/express-handlebars/node_modules/handlebars/node_modules/uglify-js/node_modules/yargs/README.md",
+		"/C/Users/shuangmin/AppData/Roaming/npm/hotnode.cmd",
+		"/D/Node.js/express/MJHomer/views/partials/footer.hbs",
+		"/D/Node.js/express/MJHomer/views/shop/detail.hbs",
+		"/D/Node.js/express/MJHomer/public/javascripts/jquery_zoom.js",
+		"/D/Node.js/express/MJHomer/models/product.js",
+		"/D/Node.js/express/MJHomer/models/subscription.js",
+		"/D/Node.js/express/MJHomer/public/javascripts/cache.js",
+		"/D/nodejs/README.md",
+		"/D/Node.js/express/MJHomer/config/hbsHelper.js",
+		"/D/Node.js/express/MJHomer/seed/product-seed.js",
+		"/D/Node.js/express/MJHomer/views/partials/paginate.hbs",
+		"/D/Node.js/express/MJHomer/app.js",
+		"/D/Node.js/express/MJHomer/config/detector.js",
+		"/D/Node.js/express/MJHomer/node_modules/i18next-express-middleware/lib/languageLookups/session.js",
+		"/D/Node.js/express/MJHomer/node_modules/i18next-express-middleware/lib/index.js",
+		"/D/Node.js/express/MJHomer/locales/zh/translation.missing.json",
+		"/D/Node.js/express/MJHomer/node_modules/express-paginate/index.js",
+		"/D/Node.js/express/MJHomer/views/partials/test.hbs",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose-paginate/index.js",
+		"/D/Node.js/express/MJHomer/node_modules/lodash._arraycopy/package.json",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/test34.js",
+		"/D/Node.js/express/MJHomer/routes/test.js",
+		"/D/Node.js/express/MJHomer/seed/promise.js",
+		"/D/Node.js/express/MJHomer/.jshintrc",
+		"/D/Node.js/express/MJHomer/node_modules/express-validator/index.js",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/D/Node.js/express/MJHomer/node_modules/jquery/README.md",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/jshint/bin/apply",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/jshint/bin/build",
+		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/jshint/bin/jshint",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/jshint/package.json",
+		"/D/Node.js/express/MJHomer/public/javascripts/zoom_img.js",
+		"/D/Node.js/express/MJHomer/views/site/promise.js",
+		"/D/Node.js/express/MJHomer/node_modules/express-handlebars/node_modules/handlebars/node_modules/uglify-js/lib/compress.js",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose/lib/index.js",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose/lib/connection.js",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose/lib/promise.js",
+		"/D/Node.js/express/MJHomer/public/javascripts/vaidate_messages_zh.js",
+		"/D/Node.js/express/MJHomer/public/javascripts/validate_messages_en.js",
+		"/D/Node.js/express/MJHomer/seed/kitten.js",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose/node_modules/mongodb/lib/db.js",
+		"/D/nodejs/node_modules/npm/package.json",
+		"/D/Node.js/express/MJHomer/node_modules/mongoose/package.json",
+		"/D/Node.js/express/MJHomer/product_images/garments/100-2.jpg",
+		"/D/Node.js/express/MJHomer/models/product",
+		"/D/Node.js/express/MJHomer/config/i18next.js",
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/jshint/README.md",
+		"/D/Node.js/express/MJHomer/views/error.hbs",
+		"/D/Node.js/express/MJHomer/views/error.jade",
+		"/D/Node.js/express/MJHomer/node_modules/i18next-express-middleware/README.md",
+		"/D/Node.js/express/MJHomer/locals/zh/translation.js",
+		"/D/Node.js/express/MJHomer/locals/en/translation.js"
+	],
+	"find":
+	{
+		"height": 57.0
+	},
+	"find_in_files":
+	{
+		"height": 356.0,
+		"where_history":
+		[
+			"-*.txt,<current file>,<open folders>,-*.txt,D:\\Node.js\\express\\MJHomer",
+			"-*.txt,<current file>,<open folders>,-*.txt",
+			"-*.txt,<current file>,<open folders>",
+			"E:\\Node.js\\express\\myapp1\\public\\images",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"GIM",
+			"xif",
+			"TargetPlatformVersion",
+			"Key error",
+			"configuration",
+			"msvc_version",
+			"msvc",
+			"jsdom",
+			"env",
+			"evn",
+			"JSDOM",
+			"jquery",
+			"../t ",
+			"/t ",
+			"../t ",
+			"minicart",
+			"{{../t",
+			"{{../../t",
+			"{{../t",
+			"..t",
+			"bcrypt",
+			"products",
+			"add-to-cart",
+			"===",
+			"==",
+			"购物车",
+			"ease-out",
+			"10s",
+			"180deg",
+			"0.5",
+			"myModalLabel",
+			"/user",
+			"routes",
+			"_verify",
+			"verified",
+			"_passReqToCallback",
+			"initi",
+			"#sign-panel",
+			"checkout",
+			"util",
+			"sys",
+			"print",
+			"util",
+			"util.print",
+			"util.print is deprecated",
+			"util.print",
+			"Use console.log instead",
+			"is deprecated",
+			"util.print is deprecated",
+			"util.print",
+			"(node) util.print is deprecated. Use console.log instead.",
+			"util.print",
+			"alert()",
+			"util.print is deprecated",
+			"util.print is deprecated. Use console.log instead.",
+			"util.print",
+			"btn-group",
+			"glyphicon",
+			"span",
+			"green",
+			"dddddd",
+			"detail-main-img",
+			"before",
+			"detail-main-img",
+			"prev",
+			"next",
+			"curProduct",
+			"nextProduct",
+			"prevProduct",
+			"color-group",
+			"detail-main-img",
+			"shareicons",
+			"grey",
+			"span",
+			"breadcrumb",
+			"age",
+			"nav",
+			"with",
+			"{{t",
+			"jumbotron",
+			"mayrino-junbotron-second",
+			"mayrino-junbotron",
+			"text-center",
+			"divider-vertical-boot",
+			"focus-mail",
+			"focus-us",
+			"btn-xs",
+			"nav1",
+			"arrive",
+			"newarriv",
+			"gutter5px",
+			".gutter5px",
+			"box-new-arrive",
+			"out",
+			"inner_img_text\nspace",
+			"space\nspace",
+			"\nspace",
+			"space\n",
+			"spac\n",
+			"spacer\n",
+			";\n",
+			"verti",
+			"lookupSession",
+			"detector",
+			"addRoute",
+			"_session2",
+			"default",
+			"detection",
+			"caches",
+			"jumbotron",
+			"i",
+			"i ",
+			"paginateHelper",
+			"registerHelper",
+			"PageLimit",
+			"TotalNoOfROWS",
+			"hasPreviousPages",
+			"pageCount",
+			"hasNextPages",
+			"pageCount",
+			"pagecount",
+			"paginate",
+			"pageCount",
+			"docs.",
+			"chunksSize",
+			"columnSize",
+			"users",
+			"pageSize"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"/javascripts",
+			"/image",
+			"/fonts",
+			"",
+			"../",
+			"public/javascripts",
+			"public/images",
+			"public/stylesheets",
+			"public/images/",
+			"public/stylesheets/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3104,
+								3104
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3117,
+										3118
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.curly"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2978,
+										2979
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1347,
+								1347
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1360,
+										1361
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.curly"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1329,
+										1330
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1110.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/layouts/layout.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1753,
+								1753
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1790,
+										1796
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.tag"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1754,
+										1760
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 333.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/shop/cart.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										528,
+										529
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"brackethighlighter.angle"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										381,
+										382
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/partials/header.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								734,
+								734
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										739,
+										740
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.quote"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										723,
+										724
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "locales/zh/translation.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1866,
+								1851
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1860,
+										1861
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.quote"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1851,
+										1852
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 2553.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "locales/en/translation.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2215,
+								2215
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2214,
+										2215
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.quote"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2205,
+										2206
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2553.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/stylesheets/layout.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15011,
+								15024
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 31655.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/javascripts/cart.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										142,
+										143
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.round"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										115,
+										116
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 45.0
+	},
+	"input":
+	{
+		"height": 324.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 47.0
+	},
+	"output.find_results":
+	{
+		"height": 148.0
+	},
+	"output.git":
+	{
+		"height": 520.0
+	},
+	"output.nodejs":
+	{
+		"height": 103.0
+	},
+	"pinned_build_system": "run tools",
+	"project": "MJHomer.sublime-project",
+	"replace":
+	{
+		"height": 108.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"layout",
+				"public\\stylesheets\\layout.css"
+			],
+			[
+				"cart",
+				"public\\javascripts\\cart.js"
+			],
+			[
+				"36",
+				"node_modules\\body-parser\\node_modules\\iconv-lite\\encodings\\tables\\cp936.json"
+			],
+			[
+				"lay",
+				"views\\layouts\\layout.hbs"
+			],
+			[
+				"index",
+				"routes\\index.js"
+			],
+			[
+				"layou",
+				"views\\layouts\\layout.hbs"
+			],
+			[
+				"header.hbs",
+				"views\\partials\\header.hbs"
+			],
+			[
+				"index.bs",
+				"views\\site\\index.hbs"
+			],
+			[
+				"index.js",
+				"routes\\index.js"
+			],
+			[
+				"user",
+				"models\\user.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"indesx",
+				"routes\\index.js"
+			],
+			[
+				"cart.js",
+				"models\\cart.js"
+			],
+			[
+				"minicart",
+				"views\\partials\\miniCart.hbs"
+			],
+			[
+				"garm",
+				"views\\shop\\garment.hbs"
+			],
+			[
+				"la",
+				"public\\stylesheets\\layout.css"
+			],
+			[
+				"",
+				"config\\passport.js"
+			],
+			[
+				"header",
+				"views\\partials\\header.hbs"
+			],
+			[
+				"app.js",
+				"app.js"
+			],
+			[
+				"garment.hbs",
+				"views\\shop\\garment.hbs"
+			],
+			[
+				"session",
+				"node_modules\\i18next-express-middleware\\lib\\languageLookups\\session.js"
+			],
+			[
+				"34",
+				"node_modules\\mongoose\\node_modules\\mongodb\\node_modules\\mongodb-core\\test34.js"
+			],
+			[
+				"product-s",
+				"seed\\product-seed.js"
+			],
+			[
+				"promise",
+				"seed\\promise.js"
+			],
+			[
+				"index.hbs",
+				"views\\site\\index.hbs"
+			],
+			[
+				"produ",
+				"models\\product.js"
+			],
+			[
+				"product",
+				"models\\product.js"
+			],
+			[
+				"pro",
+				"models\\product.js"
+			],
+			[
+				"va",
+				"public\\javascripts\\validate.js"
+			],
+			[
+				"hea",
+				"views\\partials\\header.hbs"
+			],
+			[
+				"tran",
+				"locales\\zh\\translation.json"
+			],
+			[
+				"tra",
+				"locales\\en\\translation.json"
+			],
+			[
+				"tr",
+				"locals\\en\\translation.js"
+			],
+			[
+				"header.html",
+				"views\\header.html"
+			],
+			[
+				"custom",
+				"public\\stylesheets\\css\\custom.css"
+			],
+			[
+				"test",
+				"routes\\test.js"
+			],
+			[
+				"test.js",
+				"routes\\test.js"
+			],
+			[
+				"bbb.html",
+				"views\\bbb.html"
+			],
+			[
+				"cus",
+				"public\\stylesheets\\css\\custom.css"
+			],
+			[
+				"www",
+				"bin\\www"
+			],
+			[
+				"nodejs.py",
+				"C:\\Users\\shuangmin\\AppData\\Roaming\\Sublime Text 3\\Packages\\Nodejs\\Nodejs.py"
+			],
+			[
+				"ap",
+				"app.js"
+			],
+			[
+				"detail.html",
+				"views\\detail.html"
+			],
+			[
+				"collar.html",
+				"views\\collar.html"
+			],
+			[
+				"footer.html",
+				"views\\footer.html"
+			],
+			[
+				"footer",
+				"views\\footer.html"
+			],
+			[
+				"home",
+				"views\\home.html"
+			],
+			[
+				"login",
+				"views\\login.html"
+			],
+			[
+				"re",
+				"views\\reset.html"
+			],
+			[
+				"foot",
+				"views\\footer.html"
+			],
+			[
+				"product-carousel.",
+				"public\\stylesheets\\css\\product-carousel.css"
+			],
+			[
+				"validationengine.jquery",
+				"public\\stylesheets\\css\\validationEngine.jquery.css"
+			],
+			[
+				"customcol",
+				"public\\stylesheets\\css\\customCol.css"
+			],
+			[
+				"bootstr",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"cuso",
+				"public\\stylesheets\\css\\custom.css"
+			],
+			[
+				"reset",
+				"views\\reset.html"
+			],
+			[
+				"logi",
+				"views\\login.html"
+			],
+			[
+				"in",
+				"routes\\index.js"
+			],
+			[
+				"ab",
+				"views\\about.html"
+			],
+			[
+				"db.j",
+				"routes\\db.js"
+			],
+			[
+				"cust",
+				"views\\customerCare.html"
+			],
+			[
+				"about",
+				"views\\about.html"
+			],
+			[
+				"z",
+				"public\\javascripts\\zoom_img.js"
+			],
+			[
+				"products",
+				"public\\javascripts\\products-carousel.js"
+			],
+			[
+				"head",
+				"views\\header.html"
+			],
+			[
+				"cen",
+				"views\\center.html"
+			],
+			[
+				"center",
+				"public\\stylesheets\\css\\center.css"
+			],
+			[
+				"foo",
+				"views\\footer.html"
+			],
+			[
+				"bootstra",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"sty",
+				"public\\stylesheets\\style.css"
+			],
+			[
+				"boostrap.js",
+				"public\\javascripts\\bootstrap\\3.3.5\\bootstrap.js"
+			],
+			[
+				"boot",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"lo",
+				"views\\login.html"
+			],
+			[
+				"inde",
+				"routes\\index.js"
+			],
+			[
+				"cu",
+				"public\\stylesheets\\css\\custom.css"
+			],
+			[
+				"collar",
+				"views\\collar.html"
+			],
+			[
+				"product-c",
+				"public\\javascripts\\products-carousel.js"
+			],
+			[
+				"boostr",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"custo",
+				"public\\stylesheets\\css\\custom.css"
+			],
+			[
+				"boostra",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"bootstrap.js",
+				"node_modules\\bootstrap\\dist\\js\\bootstrap.js"
+			],
+			[
+				"jquery",
+				"node_modules\\jquery\\dist\\jquery.js"
+			],
+			[
+				"product.",
+				"public\\javascripts\\product-carousel.js"
+			],
+			[
+				"product-carouse",
+				"public\\stylesheets\\css\\product-carousel.css"
+			],
+			[
+				"produc",
+				"views\\product.html"
+			],
+			[
+				"boostrap",
+				"node_modules\\bootstrap\\dist\\js\\bootstrap.js"
+			],
+			[
+				"bootstrap",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"index.h",
+				"C:\\Users\\shuangmin\\Desktop\\jquery立体左右图片切换样式\\index.html"
+			],
+			[
+				"index.html",
+				"C:\\Users\\shuangmin\\Desktop\\jquery立体左右图片切换样式\\index.html"
+			],
+			[
+				"lanrenzhi",
+				"C:\\Users\\shuangmin\\Desktop\\jquery立体左右图片切换样式\\js\\lanrenzhijia.js"
+			],
+			[
+				"lan",
+				"C:\\Users\\shuangmin\\Desktop\\jquery立体左右图片切换样式\\css\\lanrenzhijia.css"
+			],
+			[
+				"index.ht",
+				"C:\\Users\\shuangmin\\Desktop\\jquery立体左右图片切换样式\\index.html"
+			],
+			[
+				"product-car",
+				"public\\javascripts\\product-carousel.js"
+			],
+			[
+				"jqure",
+				"public\\javascripts\\jquery_zoom.js"
+			],
+			[
+				"cartvew",
+				"views\\cartView.html"
+			],
+			[
+				"f",
+				"views\\footer.html"
+			],
+			[
+				"cartv",
+				"views\\cartView.html"
+			],
+			[
+				"cartview",
+				"views\\cartView.html"
+			],
+			[
+				"cartve",
+				"views\\cartView.html"
+			],
+			[
+				"detail",
+				"views\\detail.html"
+			],
+			[
+				"bootstrap.css",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"bootstrap.",
+				"node_modules\\bootstrap\\dist\\js\\bootstrap.js"
+			],
+			[
+				"detai",
+				"views\\detail.html"
+			],
+			[
+				"de",
+				"views\\detail.html"
+			],
+			[
+				"bootst",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"co",
+				"views\\collar.html"
+			],
+			[
+				"b",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"boo",
+				"public\\stylesheets\\css\\bootstrap.css"
+			],
+			[
+				"d",
+				"views\\detail.html"
+			],
+			[
+				"deta",
+				"views\\detail.html"
+			],
+			[
+				"he",
+				"views\\header.html"
+			],
+			[
+				"customcss",
+				"public\\stylesheets\\css\\custom.css"
+			],
+			[
+				"log",
+				"views\\login.html"
+			],
+			[
+				"homehtml",
+				"views\\home.html"
+			],
+			[
+				"c",
+				"public\\stylesheets\\css\\custom.css"
+			],
+			[
+				"zoo",
+				"public\\javascripts\\zoom_img.js"
+			],
+			[
+				"collart",
+				"views\\collar.html"
+			],
+			[
+				"collr",
+				"views\\collar.html"
+			],
+			[
+				"style",
+				"public\\stylesheets\\style.css"
+			],
+			[
+				"customc",
+				"public\\stylesheets\\css\\customCol.css"
+			],
+			[
+				"custom.css",
+				"public\\stylesheets\\css\\custom.css"
+			],
+			[
+				"style.less",
+				"public\\stylesheets\\less\\styles.less"
+			],
+			[
+				"clear",
+				"public\\stylesheets\\less\\mixins\\clearfix.less"
+			],
+			[
+				"stayle.le",
+				"public\\stylesheets\\less\\alerts.less"
+			],
+			[
+				"custom.",
+				"public\\stylesheets\\css\\custom.css"
+			],
+			[
+				"reig",
+				"myapp1\\views\\register.html"
+			],
+			[
+				"regi",
+				"myapp1\\views\\register.html"
+			],
+			[
+				"regis",
+				"myapp1\\views\\register.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Node.js\\express\\shopping-cart\\shopping-cart.sublime-project"
+			]
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 588.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1290.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 394.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}

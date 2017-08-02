@@ -1,0 +1,70 @@
+<div role="navigation" class="container-fluid nav1">
+    <ul class="nav nav-pills  navbar-right" data-spy="affix" data-offset-top="60">
+        <li role="presentation">
+            <a class="btn btn-primary btn-xs btn-link" rule="button" href="/?lng=zh">{{t "header.zh"}}</a>
+        </li>
+        <li role="presentation"><a class="btn btn-primary btn-xs btn-link" rule="button" href="/?lng=en">
+                {{t "header.en"}}</a>
+        </li>
+        <li role="presentation">
+            <a type="button" class="btn btn-link btn-primary" id="show_cart" data-toggle="modal" data-target="#shopping_cart">
+                <i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i>{{t "header.shoppingCart"}}<span class="hidden-xs badge">{{ session.cart.totalQty }}</span>
+            </a>
+        </li>
+        <li class="divider-vertical hidden-xs"></li>
+        <li class="dropdown" role="presentation">
+            <a href="#" class="btn btn-link btn-primary dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-fw" aria-hidden="true"></i>
+{{t "header.user" }}<span class="caret"></span></a>
+            <ul class="dropdown-menu pull-right">
+            {{#if login }}
+                 <li><a href="/user/profile"><i class="fa fa-user-circle-o fa-fw" aria-hidden="true"></i>{{t "user.profile" }}</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/user/logout"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i>
+{{t "header.logout" }}</a></li>
+            {{ else }}
+                 <li><a href="/user/signin"><i class="fa fa-sign-in fa-fw" aria-hidden="true"></i>{{t "header.signin" }}</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/user/signup"><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i>{{t "header.signup" }}</a></li>
+            {{/if}}
+               
+            </ul>
+        </li>
+    </ul>
+</div>
+<!-- navigation bar-->
+<div class="container-fluid mayrino-junbotron" role="navigation">
+    <nav class="navbar navbar-inverse navbar-default navbar-static-top" data-spy="affix" data-offset-top="60">
+        <div class="mayrino-main-panel">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/{{t 'lng' }}"><img alt="brand" class="img-responsive img-circle" src="/images/logo6.gif" style="height:50px;width:50px;" /></a>
+                <a class="navbar-brand" href="/{{t 'lng' }}"><span class="navbar-text
+" >{{t "header.title" }}</span></a>
+            </div>
+            <div id="navbar" class="navbar-collapse  collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/{{t 'lng' }}">{{t "header.home" }}</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{t "header.shop" }}<span class="caret"></span></a>
+                        <ul class="dropdown-menu  navbar-inverse">
+                            <li><a href="/shop/garment">{{t "shop.garment" }}</a></li>
+                            <li><a href="/shop/fabric">{{t "shop.fabric" }}</a></li>
+                            <li><a href="/shop/collar">{{t "shop.collar" }}</a></li>
+                            <li role="separator" class="divider"></li>
+                            <!-- <li class="dropdown-header">{{t "shop.special" }}</li> -->
+                            <li><a href="/shop/discount">{{t "shop.discount" }}</a></li>
+                            <li><a href="/shop/accessory">{{t "shop.accessory" }}</a></li>
+                            <li><a href="/shop/novel">{{t "shop.novel" }}</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/product">{{t "header.product" }}</a></li>
+                    <li><a href="/about">{{t "header.who" }}</a></li>
+                    <li><a href="/customerCare">{{t "header.serviceCenter" }}</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+</div>

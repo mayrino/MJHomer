@@ -1,0 +1,32 @@
+<!-- //- This examples makes use of Bootstrap 3.x pagination classes
+ -->
+ 
+{{#xif paginate.hasPreviousPages '||' hasNext }}
+<div class="pagination-sm well" id="pagination"> 
+  <ul class="pager">
+    {{#if paginate.hasPreviousPages }}
+      <li class="previous">
+         <a class="prev" href="{{ prevUrl }}"><i class="fa fa-arrow-circle-left"></i>{{t 'paginate.prev' }}</a>
+      </li>
+    {{/if}}
+   
+    {{#if pages }}
+        {{#each pages }}
+          <!-- <li class=""></li> -->
+          {{#xif  this.currentPage '===' this.number }}
+          <a href="{{ this.url }}" class="active  btn btn-default">{{ this.number }}<span class="sr-only">(current)</span></a>
+          {{else}}
+            <a href="{{ this.url }}" class="btn btn-default">{{ this.number }}</a>
+          {{/xif}}
+        {{/each}}
+    {{/if}}
+ 
+
+      {{#if hasNext }}
+      <li class="next">
+         <a class="next" href="{{ nextUrl }}"><i class="fa fa-arrow-circle-right"></i>{{t 'paginate.next' }}</a>
+      </li>
+    {{/if}}
+  </ul>
+</div>
+{{/xif}}
