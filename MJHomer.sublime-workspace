@@ -610,10 +610,10 @@
 			}
 		},
 		{
-			"contents": "\n  BRANCH:  On branch `Rat` tracking `origin/Rat`.\n  ROOT:    D:\\Node.js\\express\\MJHomer\n  HEAD:    9245f4f first commit\n\n  LOCAL:\n  ▸ 9245f4f Rat (origin/Rat) 2017-10-7-MERGE\n\n  REMOTE (origin):\n    9245f4f Rat\n\n  #############\n  ## ACTIONS ##\n  #############\n\n  [c] checkout                                  [p] push selected to remote\n  [b] create from selected branch               [P] push all branches to remote\n  [d] delete                                    [h] fetch remote branches\n  [D] delete (force)                            [m] merge selected into active branch\n  [R] rename (local)                            [M] fetch and merge into active branch\n  [t] configure tracking\n\n  [f] diff against active                       [l] show branch log\n  [H] diff history against active               [g] show branch log graph\n  [E] edit branch description\n\n  [e]         toggle display of remote branches\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [r]         refresh\n  [?]         toggle this help menu\n\n-\n\n",
+			"contents": "\n  BRANCH:  On branch `Rat` tracking `origin/Rat`.\n  ROOT:    D:\\Node.js\\express\\MJHomer\n  HEAD:    e5e9557 test commit\n\n  LOCAL:\n  ▸ e5e9557 Rat (origin/Rat) 2017-10-7-MERGE\n\n  REMOTE (origin):\n    e5e9557 Rat\n\n  #############\n  ## ACTIONS ##\n  #############\n\n  [c] checkout                                  [p] push selected to remote\n  [b] create from selected branch               [P] push all branches to remote\n  [d] delete                                    [h] fetch remote branches\n  [D] delete (force)                            [m] merge selected into active branch\n  [R] rename (local)                            [M] fetch and merge into active branch\n  [t] configure tracking\n\n  [f] diff against active                       [l] show branch log\n  [H] diff history against active               [g] show branch log graph\n  [E] edit branch description\n\n  [e]         toggle display of remote branches\n  [tab]       transition to next dashboard\n  [SHIFT-tab] transition to previous dashboard\n  [r]         refresh\n  [?]         toggle this help menu\n\n-\n\n",
 			"settings":
 			{
-				"buffer_size": 1064,
+				"buffer_size": 1063,
 				"line_ending": "Windows",
 				"name": "BRANCHES: MJHomer",
 				"read_only": true,
@@ -760,17 +760,37 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 578.0,
-		"last_filter": "git g",
+		"height": 588.0,
+		"last_filter": "git b",
 		"selected_items":
 		[
+			[
+				"git b",
+				"git: branch"
+			],
 			[
 				"git g",
 				"Git: Gui"
 			],
 			[
+				"remote",
+				"Git: Track Remote Branch"
+			],
+			[
 				"git pu",
-				"git: push (force)"
+				"Git: Pull"
+			],
+			[
+				"git remote",
+				"git: remote add"
+			],
+			[
+				"git branch",
+				"git: branch"
+			],
+			[
+				"git",
+				"git: commit"
 			],
 			[
 				"github",
@@ -813,10 +833,6 @@
 				"Set Syntax: HTML"
 			],
 			[
-				"git",
-				"git: branch"
-			],
-			[
 				"RUN",
 				"Build With: run tools - running...."
 			],
@@ -831,10 +847,6 @@
 			[
 				"gitsavv",
 				"Preferences: GitSavvy Settings"
-			],
-			[
-				"git b",
-				"git: branch"
 			],
 			[
 				"git conf",
@@ -883,10 +895,6 @@
 			[
 				"git r",
 				"git: remote add"
-			],
-			[
-				"git remote",
-				"github: set remote for integration"
 			],
 			[
 				"git:config",
@@ -1267,14 +1275,6 @@
 			[
 				"PACK DI",
 				"Package Control: Disable Package"
-			],
-			[
-				"packageControl",
-				"Preferences: Package Control Settings – User"
-			],
-			[
-				"subl",
-				"SublimeCodeIntel: Reset"
 			]
 		],
 		"width": 810.0
@@ -1359,11 +1359,11 @@
 	[
 		"/D/Node.js/express/MJHomer",
 		"/D/Node.js/express/MJHomer/bin",
-		"/D/Node.js/express/MJHomer/node_modules",
-		"/D/Node.js/express/MJHomer/node_modules/greenlock-express"
+		"/D/Node.js/express/MJHomer/views"
 	],
 	"file_history":
 	[
+		"/D/Node.js/express/MJHomer/views/test-remote-commit.txt",
 		"/D/Node.js/express/MJHomer/.jshintrc",
 		"/D/Node.js/express/MJHomer/public/stylesheets/profile.css",
 		"/D/Node.js/express/MJHomer/public/stylesheets/checkout.css",
@@ -1490,8 +1490,7 @@
 		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/package.json",
 		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/node_modules/watch/main.js",
 		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/javascript/hotnode.js",
-		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/javascript/app.js",
-		"/C/Users/shuangmin/AppData/Roaming/Sublime Text 3/Packages/Nodejs/node_modules/.bin/uglifyjs"
+		"/C/Users/shuangmin/AppData/Roaming/npm/node_modules/hotnode/javascript/app.js"
 	],
 	"find":
 	{
@@ -1682,7 +1681,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 10,
 			"sheets":
 			[
 				{
@@ -1979,31 +1978,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -2014,21 +2013,21 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2537,31 +2536,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -2572,21 +2571,21 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2739,8 +2738,8 @@
 						"selection":
 						[
 							[
-								266,
-								266
+								1587,
+								1587
 							]
 						],
 						"settings":
@@ -2753,24 +2752,24 @@
 								{
 									"1":
 									[
-										276,
-										277
+										1586,
+										1587
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"brackethighlighter.round"
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.curly"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										261,
-										262
+										1490,
+										1491
 									]
 								},
 								"unmatched":
@@ -2784,16 +2783,16 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -2804,31 +2803,31 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2841,10 +2840,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2068.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -2852,15 +2851,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1064,
+						"buffer_size": 1063,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								176,
-								176
+								134,
+								134
 							]
 						],
 						"settings":
@@ -2889,16 +2888,16 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -2909,31 +2908,31 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -2951,10 +2950,10 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -3000,16 +2999,16 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -3020,31 +3019,31 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -3099,7 +3098,7 @@
 	"menu_visible": true,
 	"output.GitSavvy":
 	{
-		"height": 439.0
+		"height": 422.0
 	},
 	"output.exec":
 	{
@@ -3111,7 +3110,7 @@
 	},
 	"output.git":
 	{
-		"height": 184.0
+		"height": 117.0
 	},
 	"output.nodejs":
 	{
@@ -3119,7 +3118,7 @@
 	},
 	"output.show_commit_info":
 	{
-		"height": 46.0
+		"height": 436.0
 	},
 	"pinned_build_system": "run tools",
 	"project": "MJHomer.sublime-project",
@@ -3657,7 +3656,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\shuangmin\\Downloads\\java-sdk-v3\\java-skd-v3.sublime-workspace"
+				"D:\\Node.js\\wxpay-node\\wxpay-node.sublime-project"
 			]
 		],
 		"width": 705.0
