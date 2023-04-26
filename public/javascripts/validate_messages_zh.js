@@ -12,6 +12,15 @@ $.extend($.validator.defaults.messages, {
     password:{
         required:"输入密码"
     },
+    name:{
+        required:"这是必填字段"
+    },
+    subject:{
+        required:"这是必填字段"
+    },
+    message:{
+        required:"这是必填字段"
+    },
     url: "请输入有效的网址",
     date: "请输入有效的日期",
     dateISO: "请输入有效的日期 (YYYY-MM-DD)",

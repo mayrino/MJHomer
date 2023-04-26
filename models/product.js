@@ -18,7 +18,8 @@ var productSchema = new Schema({
     description: { type: String, require: true },
     detail: { type: String, require: true },
     refundPolicy: { type: String, require: true },
-    type: { type: String, require: true }
+    type: { type: String, require: true },
+    number:{type:String, require:true}
 }/*, { bufferCommands: false }*/);
 
 productSchema.plugin(require('mongoose-paginate'));

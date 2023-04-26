@@ -4,20 +4,20 @@
     </div>
     <div class="container-fluid panel panel-default">
         <div class="mayrino-main-panel">
-            {{>paginate}} {{# each products}}
+            {{>paginate}} 
+            {{# each products}}
             <div class="row">
                 {{# each this}}
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail img-box">
                         {{#each this.imagePath }} {{#if @first}}
                         <img role="button" src="{{ this }}" /> {{/if}} {{/each}}
-                        <a href="/detail/{{ this._id }}" class="hidden" role="button"></a>
-                        <a href="/share/{{ this._id }}" class="btn btn-danger up-right" role="button"> {{../../t  "product.share" }}</a>
-                        <a href="/more/{{ this._id }}" class="btn btn-primary down-right " role="button">{{../../t  "product.more" }}</a>
+                        <a href="/shop/detail/{{ this._id }}" class="hidden" role="button"></a>                  
                         <div class="img-box-detail clearfix ">
+                            <p class="btn btn-link btn-info pull-left">{{../../t  "index.view_detail" }}</p>
                             <a class="btn btn-link btn-info pull-left ">{{ this.title 
                             }}</a>
-                            <a href="/shop/add-to-cart/{{ this._id }} " class="btn btn-link pull-right btn-success" role="button">{{../../t  "product.addToCart" }}</a>
+                            <p class="btn btn-link pull-right btn-primary" > <i class="fa {{#xif lng '===' 'en' }} fa-usd {{ else }} fa-jpy {{/xif}}" aria-hidden="true">{{ this.priceDiscount }}</i></p>
                         </div>
                     </div>
                 </div>

@@ -121,4 +121,11 @@ $(function() {
     // initialize all tooltips   and all popover
     $('[data-toggle="tooltip"]').tooltip();
     $('[data-toggle="popover"]').popover();
+
+    // define affix navigator width same as normal layout 
+    $("[data-spy='affix']").on("affixed.bs.affix",function(){
+        $(this).width($(document.body).outerWidth(true));
+    });
+    
+      
 });

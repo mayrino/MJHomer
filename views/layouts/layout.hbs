@@ -2,17 +2,23 @@
 <html>
 
 <head>
-    <title>{{t "layout.title" }}</title>
     <!-- Latest compiled and minified CSS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel='stylesheet' href='/stylesheets/layout.css' />
+    <link rel='stylesheet' href='/stylesheets/product-carousel.css' />
+    <link rel='stylesheet' href='/stylesheets/checkout.css' />
+    <link href="https://cdn.bootcss.com/bootstrap-touchspin/3.1.2/jquery.bootstrap-touchspin.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/profile.css' />
+    <title>{{t "layout.title" }}</title>
 </head>
 
 <body role="document">
     {{>header}}
-   
+    
     <div>
         {{{body}}}
     </div>
@@ -22,14 +28,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!--! jQuery Validation Plugin - v1.16.0 - 12/2/2016-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap-touchspin/3.1.2/jquery.bootstrap-touchspin.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap-hover-dropdown/2.2.0/bootstrap-hover-dropdown.min.js"></script>
     <script src="/javascripts/index.js"></script>
     <script src="/javascripts/validate.js"></script>
     <script src="/javascripts/validate_messages_{{t 'locale' }}.js"></script>
     <script src="/javascripts/jquery_zoom.js"></script>   
     <script src="/javascripts/garment.js"></script>
-
-    <script src="/javascripts/user.js"></script>
     <script src="/javascripts/cart.js"></script>
+    <script src="/javascripts/detail.js"></script>
+    <script src="/javascripts/user.js"></script>
+    <script src="/javascripts/product-carousel.js"></script>
+    <script src="/javascripts/browse.js"></script>
+    <script src="/javascripts/customerCare.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="/javascripts/checkout.js"></script>
+    <script src="/javascripts/profile.js"></script>
+    
 </body>
 
 </html>

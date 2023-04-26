@@ -19,6 +19,7 @@ var hbsHelper = require('./config/hbsHelper');
 
 var routes = require('./routes/index');
 var userRoutes = require('./routes/user');
+var shopRoutes = require('./routes/shop');
 var app = express();
 
 //use thirdparty Promise bluebird
@@ -96,6 +97,7 @@ app.use(function(req,res,next){
     res.locals.lng = req.session['lng'];
     next();
 });
+app.use('/shop', shopRoutes);
 app.use('/user', userRoutes);
 app.use('/', routes);
 

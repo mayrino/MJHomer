@@ -1,0 +1,49 @@
+<div class="jumbotron" style="margin-top: -30px; margin-bottom: 0px;">
+    <div class="container-fluid text-center">
+        <h2>{{t "care.title1"}}</h2>
+        <p>
+            {{t "care.title2"}}
+            <br>{{t "care.title3"}}&nbsp;<a href="mailto:reyesxie@foxmail.com">reyesxie@foxmail.com</a></p>
+        <p id="showMsg"></p>
+        <div class="row">
+            <form action="/customerCare" id="form-message" role="form" accept-charset="UTF-8">
+                <div class="col-md-3 col-xs-12 col-md-offset-3">
+                    <input type="text" class="form-control care-input" id="name" name="name" placeholder="{{t 'care.name'}}" size="25" maxlength="128">
+                    <input type="text" class="form-control  care-input" id="email" name="email" placeholder="{{t 'care.email'}}" size="25" maxlength="128">
+                    <input type="text" class="form-control care-input" id="subject" name="subject" placeholder="{{t 'care.subject'}}" size="25" maxlength="128">
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <textarea rows="5" class="form-control  care-input" id="message" name="message" placeholder="{{t 'care.msg'}}" size="25" maxlength="128"></textarea>
+                </div>
+                <div class="rows">
+                    <div class="col-md-1 col-xs-12 col-md-offset-8">
+                        <button class="btn care-send-btn" id="message_submit" name="send" type="submit">{{t "care.send"}}</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container-fluid panel panel-default text-center" style="margin-bottom: 0px;border:0px;border-radius: 0px;">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-left">
+                <h2>{{t "care.faq"}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2 text-left">
+                {{#each firsts}} {{#each this }}
+                <h3>{{this.title}}</h3>
+                <p style="font-size: 14px;">
+                    {{this.para}}</p>
+                {{/each}} {{/each}}
+            </div>
+            <div class="col-md-4 text-left">
+                {{#each seconds}} {{#each this }}
+                <h3>{{this.title}}</h3>
+                <p style="font-size: 14px;">
+                    {{this.para}}</p>
+                {{/each}} {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

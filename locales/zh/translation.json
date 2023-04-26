@@ -61,7 +61,9 @@
         "quantity":"数量：",
         "qqShare":"qq分享",
         "wechatShare":"微信分享",
-        "weiboShare":"微博分享"
+        "weiboShare":"微博分享",
+        "number":"编号",
+        "price":"价格"
     },
      "BLACK":"黑色",
      "RED":"红色", 
@@ -81,6 +83,65 @@
         "view":"查看购物车",
         "empty":"空购物车",
         "subtotal":"总计：",
-        "checkout":"结算"
+        "checkout":"结算",
+        "product":"产品",
+        "article":"商品",
+        "quantity":"数量",
+        "amount":"金额",
+        "addNote":"添加附加信息",
+        "noteTo":"卖家注意",
+        "editNote":"编辑",
+        "delNote":"删除",
+        "noteDone":"完成",
+        "noteCancle":"取消",
+        "noteHolder":"任何指示或要求？反馈给我们！",
+        "checkoutPrompt":"拆扣，运费，税金，将在结算中计算！",
+        "remove":"移除",
+        "add":"添加",
+        "reduce":"减少",
+        "cloMiniCart":"关闭迷你购物车"
+     },
+     "care":{
+        "title1":"服务中心",
+        "title2":"您有任何问题或者需要帮助的吗？",
+        "title3":"请拨打热线：15715765111或发送邮件:",
+        "name":"姓名",
+        "email":"邮箱",
+        "subject":"主题",
+        "msg":"消息",
+        "faq":"常见问题",
+        "send":"发送",
+        "failure":"发送失败！",
+        "success":"发送成功，谢谢！"
+     },
+     "footer":{
+        "title":"敏捷毛绒",
+        "manual":"用户指南",
+        "shopping":"购买政策",
+        "returns":"退货政策",
+        "about":"关于我们",
+        "contact":"联系我们",
+        "store":"实体店",
+        "address":{
+            "title":"美丽诺纺织&敏捷毛绒",
+            "street":"九堡家苑3区14排63号,江干区",
+            "city":"杭州市, 浙江省",
+            "tel":"电话:"
+            },
+        "connected":"相关链接"
+     },
+     "about":{
+        "title":"关于我们",
+        "introduce":"我们专注于研发、供应各类毛绒面辅料、毛绒类服饰、毛领、家纺、玩具等领域仿毛类制品！",
+        "phone":"手机:",
+        "contact":"谢先生"
+     },
+     "browse":{
+        "title":"产品展示",
+        "content":"秋冬季/2017",
+        "apparel":" MJ服饰",
+        "fabric":"MJ面料",
+        "collar":" MJ毛领",
+        "accessory":"MJ饰品"
      }
 }

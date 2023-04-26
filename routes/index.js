@@ -1,79 +1,58 @@
 var express = require('express');
 var router = express.Router();
 var Subscription = require('../models/subscription');
-var Cart = require('../models/cart');
-var Product = require('../models/product');
-var paginate = require('express-paginate');
-var Join = require("bluebird").join;
+var Question = require('../models/question');
+var FAQ = require('../models/faq');
 
-
-// keep this before all routes that will use pagination
-router.use(paginate.middleware(6, 50));
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
     res.render('site/index');
 });
 
-/* GET product detail page. */
-router.get('/detail/:id', function(req, res, next) {
-    var productId = req.params.id;
-    var current, nextPro, prevPro;
-    Join(Product.findById(productId), Product.findOne({ _id: { $lt: productId } }).sort({ _id: -1 }), Product.findOne({ _id: { $gt: productId } }).sort({ _id: 1 }), function(currDoc, prevDoc, nextDoc) {
-        current = currDoc;
-        prevPro = prevDoc ? prevDoc._id : prevDoc;
-        nextPro = nextDoc ? nextDoc._id : nextDoc;
-        res.render('shop/detail', { product: current, next: nextPro, prev: prevPro });
+/* GET browse page. */
+router.get('/browse', function(req, res, next) {
+    res.render('site/browse');
+});
+
+/* GET browse page. */
+router.get('/about', function(req, res, next) {
+    res.render('site/aboutus');
+});
+
+/*get baidu map*/
+router.get('/mapDemo', function(req, res, next) {
+    res.render("site/mapDemo", { layout: false });
+});
+
+/*get customer care page*/
+router.get('/customerCare', function(req, res, next) {
+    var local = req.session['lng'] || 'zh';
+    FAQ.find({ local: local }, 'title para', function(err, docs) {
+        var faqFirsts = [];
+        var faqSeconds = [];
+        if(docs.length % 2 === 0 ){
+            faqFirsts.push(docs.slice(0, docs.length / 2));
+            faqSeconds.push(docs.slice(docs.length / 2, docs.length));
+        }else{
+            faqFirsts.push(docs.slice(0, docs.length / 2 + 1));
+            faqSeconds.push(docs.slice(docs.length / 2 +1 , docs.length));
+        }
+        res.render('site/customerCare', { firsts: faqFirsts , seconds: faqSeconds});
     });
 });
 
-/* GET shopping cart  page. */
-
-router.get('/shop/cart', function(req, res, next) {
-    console.log("mini" + req.xhr);
-    var isMini = req.xhr ? true :false;
-    if (!req.session.cart) {       
-        if (isMini) {
-            return res.render('shop/miniCart',{ articles: null,layout:false });
-        }
-        return res.render('shop/cart',  { articles: null });
-    }
-    var cart = new Cart(req.session.cart);
-    if (isMini) {
-       return res.render('shop/miniCart', { articles: cart.generateArray(), totalPrice: cart.totalPrice ,layout:false });
-    }
-    return res.render('shop/cart', { articles: cart.generateArray(), totalPrice: cart.totalPrice  });
-});
-
-
-/* GET home page. */
-router.get('/shop/garment', function(req, res, next) {
-
-    Product.paginate({}, { page: req.query.page, limit: req.query.limit }, function(err, docs) {
-
-        if (err) return next(err);
-        var products = docs.docs;
-        var productChunks = [];
-        var chunkSize = 3;
-        for (var i = 0; i < products.length; i += chunkSize) {
-            productChunks.push(products.slice(i, i + chunkSize));
-        }
-        res.format({
-            html: function() {
-                res.render('shop/garment', {
-                    products: productChunks,
-                    pageCount: docs.pages,
-                    itemCount: docs.total,
-                    pages: paginate.getArrayPages(req)(2, docs.pages, req.query.page),
-                    hasNext: paginate.hasNext(req, docs.pages),
-                    prevUrl: paginate.linkUrl(req, true),
-                    nextUrl: paginate.linkUrl(req)
-                });
-            }
-        });
+/*get customer care messages*/
+router.post('/customerCare', function(req, res, next) {
+    var newQuestion = new Question({ email: req.body.email, name: req.body.name, subject: req.body.subject, message: req.body.message });
+    newQuestion.save().then(function(care) {
+        return res.send(req.t('care.success'));
+    }, function(care) {
+        return res.send(req.t('care.failure'));
+    }).catch(function(err) {
+        return res.send(req.t('backError'));
     });
 });
-
 
 /*POST subscription*/
 router.post('/subscribe', function(req, res, next) {
@@ -86,25 +65,6 @@ router.post('/subscribe', function(req, res, next) {
         return res.send(req.t('backError'));
     });
 
-});
-
-
-/*add to cart*/
-
-router.get('/shop/add-to-cart/:id', function(req, res, next) {
-    var productId = req.params.id;
-    var cart = new Cart(req.session.cart ? req.session.cart : {});
-
-    Product.findById(productId).
-    then(function(product) {
-        cart.add(product, product.id);
-        req.session.cart = cart;
-        console.info(req.session.cart);
-        res.redirect('/shop/garment');
-
-    }, function(err) {
-        return next(err);
-    });
 });
 
 module.exports = router;

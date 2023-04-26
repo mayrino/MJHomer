@@ -19,16 +19,23 @@
     "express-handlebars": "^3.0.0",
     "express-paginate": "^0.2.2",
     "express-session": "^1.15.3",
+    "greenlock-express": "^2.0.11",
+    "hashids": "^1.1.1",
     "i18next": "^8.4.3",
     "i18next-express-middleware": "^1.0.5",
     "i18next-node-fs-backend": "^1.0.0",
     "jsdom-no-contextify": "^3.1.0",
+    "le-challenge-fs": "^2.0.8",
+    "le-store-certbot": "^2.0.5",
+    "lodash": "^4.17.4",
     "mongoose": "^4.10.8",
     "mongoose-paginate": "^5.0.3",
     "morgan": "~1.6.1",
     "node-jsdom": "^3.1.5",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
+    "querystring": "^0.2.0",
+    "redirect-https": "^1.1.4",
     "serve-favicon": "^2.3.2"
   }
 }

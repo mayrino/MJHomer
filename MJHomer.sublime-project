@@ -1,34 +1,39 @@
 {
-    "folders":
-    [
-        {
-            "path": "."
-        }
-
-    ],
-    "settings":
-    {
-            "tab_size":4
-    },
-    "build_systems":
-    [
-            {
-                  "name":"run tools",
-                  "shell":true,
-                  "encoding":"utf-8",
-                  "variants":
-                  [
-                    {
-                        "name":"running....",
-                        "cmd":["npm","start"]
-                    },
-                     {
-                        "name":"stoped....",
-                        "cmd":["npm","stop"]
-                    }
-
-                  ]
-            }
-
-    ]
+	"build_systems":
+	[
+		{
+			"encoding": "utf-8",
+			"name": "run tools",
+			"shell": true,
+			"variants":
+			[
+				{
+					"cmd":
+					[
+						"npm",
+						"start"
+					],
+					"name": "running...."
+				},
+				{
+					"cmd":
+					[
+						"npm",
+						"stop"
+					],
+					"name": "stoped...."
+				}
+			]
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4
+	}
 }

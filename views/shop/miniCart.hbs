@@ -1,58 +1,12 @@
 <!-- model cart -->
-<div class="modal fade" id="shopping_cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="mini-cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content" role="document">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-chevron-left hidden-xs" aria-hidden="true"></i><span aria-hidden="true" class="visible-xs-inline">&times;</span></button>
-                <h3 class="modal-title text-center" id="myModalLabel">{{t "header.shoppingCart" }}</h3>
-            </div>        
-            {{#if articles }}
-            <div class="modal-body">
-              {{#each articles }}
-                <div class="row">
-                    <div class="col-md-4" >
-                    {{#each this.item.imagePath }}
-                    {{#if @first}}
-                        <a><img src="{{ this }}" class="img-responsive"></a>
-                    {{/if}}
-                    {{/each }}
-                    </div>
-                    <div class="col-md-6">
-                        <h4>{{ this.item.title }}</h4>
-                        <p>{{ this.qty }}</p>
-                        <p>
-                            <s>                           
-                              <i class="fa {{#xif ../ lng '===' 'en' }} fa-usd {{else}} fa-jpy {{/xif}}" aria-hidden="true"></i>                               
-                              {{this.item.price}}
-
-                            </s>
-                             <i class="fa {{#xif ../ lng '===' 'en' }} fa-usd {{else}} fa-jpy {{/xif}}" aria-hidden="true">{{this.item.priceDiscount}}</i>
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <a><i class="fa fa-times-circle-o" aria-hidden="true"></i></a>
-                        <a><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                {{/each}}
-              <div class="mini-subtotal">                  
-                     <h2 class="text-primary">{{t "cart.subtotal" }}</h2>
-                     <p class="text-primary">
-                     <i class="fa {{#xif lng '===' 'en' }} fa-usd {{ else }} fa-jpy {{/xif}}" aria-hidden="true"></i>                                                                     
-                     {{ totalPrice }}</p>                        
-              </div>
-            </div>
-            {{else}}
-              <div class="modal-body">
-              <h3 class="text-center">{{t "cart.empty" }}</h3>
-              </div>
-            {{/if}}
-            <div class="modal-footer">
-                <button type="button"  id="btn-view-cart" class="btn btn-lg btn-block cart-detail-btn">{{t "cart.view" }}</button>
-            </div>
+           {{>cartContent}}    
         </div>
         <!-- /.modal-content -->
     </div>
     <!--/.modal-dialog-->
 </div>
 <!-- /.modal -->
+  

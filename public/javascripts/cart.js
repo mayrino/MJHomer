@@ -1,194 +1,236 @@
-( function() {
-            // 设置只能输入正整数
-            $("[type='text']").keyup(function(event) {
+var MiniCart = {
 
-                if ($(this).val().length === 1) {
-                    $(this).val($(this).val().replace(/[^1-9.]/g, ''));
-                } else {
-                    $(this).val($(this).val().replace(/[^0-9.]/g, ''));
-                }
-
-            }).bind("paste", function() { //CTR+V事件处理    
-                if ($(this).val().length === 1) {
-                    $(this).val($(this).val().replace(/[^1-9.]/g, ''));
-                } else {
-                    $(this).val($(this).val().replace(/[^0-9.]/g, ''));
-                }
-            }).css("ime-mode", "disabled"); //CSS设置输入法不可用
-
-            $("[type='text']").on("input propertychange", function() {
-
-                if ($(this).val().length === 1) {
-                    $(this).val($(this).val().replace(/[^1-9.]/g, ''));
-                } else {
-                    $(this).val($(this).val().replace(/[^0-9.]/g, ''));
-                }
-
-                var origSubtotal = $(this).parent().next().find("span").text().replace(/\$|\￥/ig, '');
-                var price = $(this).next().val().replace(/\$|\￥/ig, '');
-
-                var quatity = $(this).val();
-                if (Number(quatity).NaN || Number(quatity) === 0 || quatity === "")
-                    quatity = 1;
-
-                var subtotal = Number(price) * Number(quatity);
-
-                $(this).parent().next().find("span").text(function(i, orig) {
-                    var currency = orig.substring(0, 1);
-                    return currency + subtotal.toFixed(2);
-                });
-
-                $("#amount").text(function(i, orig) {
-                    var currency = orig.substring(0, 1);
-                    var result = 0;
-
-                    $("span.subtotal").each(function() {
-                        result += Number($(this).text().replace(/\$|\￥/ig, ''));
-                    });
-                    return currency + result.toFixed(2);
-                    /* var result = Number(orig.replace(/\$|\￥/ig, '')) - Number(origSubtotal) + subtotal;
-                     return currency + result.toFixed(2);*/
-                });
-                $(".item-count").text(function(i, orig) {
-                    var count = 0;
-
-                    $("[type='text']").each(function() {
-                        if (isNaN($(this).val()) || $(this).val() === "") {
-                            count += 1;
-                        } else {
-                            count += parseInt($(this).val());
-                        }
-                    });
-                    return count;
+    //mini cart increase and decrease one also remove an item
+    regulate: function(arr) {
+        $.each(arr, function(key, value) {
+            $(value).on("click", function(event) {
+                event.preventDefault();
+                $("#mini-cart .modal-content").load($(this).attr("data-herf"), function(res, status, xhr) {
+                    MiniCart.regulate($('[target="mini-add"]'));
+                    MiniCart.regulate($('[target="mini-reduce"]'));
+                    MiniCart.regulate($('[target="mini-remove"]'));
+                    $("#show_cart span").text($(".modal-body").attr("data-total-qty"));
                 });
             });
+        });
+    },
+
+    showMiniCart: function(url) {
+        var setting = { url: url, dataType: "html" };
+        /*alert(url);*/
+        $.get(setting).done(function(data) {
+            $("body").append(data);
+            $('#mini-cart').modal('show');
+
+            $('#mini-cart').on('shown.bs.modal', function(event) {
+
+                MiniCart.regulate($('[target="mini-reduce"]'));
+
+                MiniCart.regulate($('[target="mini-add"]'));
+
+                MiniCart.regulate($('[target="mini-remove"]'));
+
+            });
+
+            $('#mini-cart').on('click', "#btn-view-cart", function() {
+                window.location.assign('/shop/cart');
+            });
+            //display total quantity on shopping-cart button
+            $("#show_cart span").text($(".modal-body").attr("data-total-qty"));
+
+            $("#mini-cart").on('hidden.bs.modal', function(event) {
+                var modal = $(this);
+                $(modal).remove();
+            });
+        });
+    }
+};
 
 
-            $("span.glyphicon-minus").click(function() {
-                $(this).siblings().eq(0).val(function(i, orig) {
-                    --orig;
-                    if (orig < 1)
-                        return 1;
-                    return orig;
+var Cart = function() {
+    var textInputs = $(".cart-view-row [type='text']");
+    var subtotalTexts = $("i.subtotal");
+    var minuses = $('i.fa-minus');
+    var pluses = $('i.fa-plus');
+    // 设置只能输入正整数
+    var justNumber = function(event) {
+        var val = $(this).val();
+        var length = $(this).val().length;
+        if (length === 1) {
+            $(this).val(val.replace(/[^1-9]/g, ''));
+        } else {
+            $(this).val(val.replace(/[^0-9]/g, ''));
+        }
+        if (Number(val).NaN || Number(val) === 0 || val === "" || val === "undefined")
+            $(this).val(1);
+    };
+
+    var calcSubtotal = function() {
+        var price = $(this).next().val();
+        var qty = $(this).val();
+        $(this).parent().next().find("i").text(function(i, orig) {
+            return (Number(price) * Number(qty)).toFixed(2);
+        });
+    };
+    var calcAmount = function() {
+        $("#amount").text(function(i, orig) {
+            var amt = 0;
+            $(subtotalTexts).each(function() {
+                amt += Number($(this).text());
+            });
+            return amt.toFixed(2);
+        });
+    };
+    var calcCount = function() {
+        $(".item-count").text(function(i, orig) {
+            var count = 0;
+            $(textInputs).each(function() {
+                count += parseInt($(this).val());
+            });
+            return count;
+        });
+    };
+
+    var clickMinus = function() {
+
+        $(this).siblings().eq(0).val(function(i, orig) {
+            --orig;
+            return orig < 1 ? 1 : orig;
+        });
+        $(this).siblings().eq(0).trigger("input");
+    };
+
+    var clickPlus = function() {
+        $(this).siblings().eq(1).val(function(i, orig) {
+            return ++orig;
+        });
+        $(this).siblings().eq(1).trigger("input");
+    };
+
+    var changeQty = function() {
+        var $that = $(this);
+        var itemId = $(this).attr("data-item-id");
+        var qty = $(this).val();
+        var setting = { url: "/shop/changeQty", data: { id: itemId, qty: qty } };
+        $.get(setting)
+            .done(function(data) {
+                calcSubtotal.call($that);
+                calcAmount.call($that);
+                calcCount.call($that);
+
+                $("#show_cart span").text(data.totalQty);
+            });
+    };
+
+    var showCart = function(event, _url ) {
+        event.stopPropagation();
+
+        var url = _url ? _url: "/shop/cart";
+        var mql = window.matchMedia("(max-width: 700px)");
+        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+        // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+        if (mql.matches || window.location.pathname === url || window.location.pathname ===  "/shop/checkout") {
+            window.location.assign(url);
+        } else {
+            MiniCart.showMiniCart(url);
+        }
+    };
+
+    var init = function() {
+        $(textInputs).each(function(i, ele) {
+
+            $(ele).on("keyup paste input propertychange", justNumber);
+            /* $(ele).on("input propertychange", calcSubtotal);
+             $(ele).on("input propertychange", calcAmount);
+             $(ele).on("input propertychange", calcCount);*/
+            $(ele).on("input propertychange", changeQty);
+            //CSS设置输入法不可用
+            $(ele).css('ime-mode', 'disabled');
+        });
+
+        $(minuses).each(function(i, ele) {
+            $(ele).on('click', clickMinus);
+        });
+
+        $(pluses).each(function(i, ele) {
+            $(ele).on('click', clickPlus);
+        });
+
+        $('#show_cart').on('click', showCart);
+    };
+
+    init();
+};
+
+
+
+(function() {
+     Cart();
+
+     if ($("#noteShow").text() !== "" ) {
+        $("#noteShowPanel").show();
+        $("#note").hide();
+        $("#noteLink").hide();
+     }else{
+        $("#noteShowPanel").hide();
+        $("#note").hide();
+        $("#noteLink").show();
+     }
+
+
+    $("#noteLink").click(
+        function() {
+            $(this).hide();
+            $("#note").show();
+        });
+    $("#cancleNoteBtn").click(
+        function() {
+            if ($("#noteShow").text() !== "") {
+                $("#noteShowPanel").show();
+                $("#noteLink").hide();
+                $("#note").hide();
+            } else {
+                $("#noteEdit").val("");
+                $("#noteLink").show();
+                $("#note").hide();
+                $("#noteShowPanel").hide();
+            }
+        }
+    );
+
+    $("#doneNoteBtn").click(function() {
+        if ($("#noteEdit").val() !== "" || $("#noteEdit").val() !== "") {
+            $.get({url:"/shop/noteSave",data:{ noteTxt: $("#noteEdit").val() }})
+                .done(function(res) {
+                    $("#noteShow").text(res.noteTxt);
+                    $("#noteShowPanel").show();
+                    $("#note").hide();
+                    $("#noteLink").hide();
                 });
-                $("[type='text']").trigger("input");
-            });
 
-            $("span.glyphicon-plus").click(function() {
-                $(this).siblings().eq(1).val(function(i, orig) {
-                    return ++orig;
-                });
-                $(this).siblings().eq(1).trigger("input");
-            });
+        } else {
+            $("#noteEdit").val("");
+            $("#noteShow").text("");
+            $("#noteLink").show();
+            $("#note").hide();
+            $("#noteShowPanel").hide();
+        }
+    });
 
+    $("#noteTrashBtn").click(function() {
+        $.get("/shop/noteTrash").done(function(res) {
+            $("#noteShow").text(res.noteTxt);
+            $("#noteEdit").val(res.noteTxt);
+            $("#noteLink").show();
+            $("#note").hide();
+            $("#noteShowPanel").hide();
+        });
+    });
 
-            $("#nodeShowPanel").hide();
-            $("#node").hide();
-            $("#nodeLink").show();
-
-            $("#nodeLink").click(
-                function() {
-                    //alert("node-link");
-                    $(this).hide();
-                    $("#node").show();
-                });
-            $("#cancleNodeBtn").click(
-                function() {
-                    if ($("#nodeShow").text() !== "" || $("#nodeShow").text() !== "") {
-                        $("#nodeShowPanel").show();
-                        $("#nodeLink").hide();
-                        $("#node").hide();
-                    } else {
-                        $("#nodeEdit").val("");
-                        $("#nodeLink").show();
-                        $("#node").hide();
-                        $("#nodeShowPanel").hide();
-                    }
-                }
-            );
-
-            $("#doneNodeBtn").click(function() {
-                if ($("#nodeEdit").val() !== "" || $("#nodeEdit").val() !== "") {
-                    $("#nodeShow").text(function(i, origText) {
-                        return $("#nodeEdit").val();
-                    });
-                    $("#nodeShowPanel").show();
-                    $("#node").hide();
-                    $("#nodeLink").hide();
-                } else {
-                    $("#nodeEdit").val("");
-                    $("#nodeLink").show();
-                    $("#node").hide();
-                    $("#nodeShowPanel").hide();
-                }
-            });
-
-            $("#nodeTrashBtn").click(function() {
-                $("#nodeShow").text("");
-                $("#nodeEdit").val("");
-                $("#nodeLink").show();
-                $("#node").hide();
-                $("#nodeShowPanel").hide();
-            });
-
-            $("#nodeEditBtn").click(function() {
-                $("#nodeEdit").val($("#nodeShow").text());
-                $("#nodeLink").hide();
-                $("#nodeShowPanel").hide();
-                $("#node").show();
-            });
-
-            // remove an item 
-
-            $(".item-remove").on("click", function() {
-                $(this).parentsUntil("div.panel").remove();
-                $("[type='text']").trigger("input");
-
-               $("#cartView").trigger("load");
-
-            });
-
-            // reload text 
-            $("#cartView").on("load",function(){                 
-               if ($("[type='text']").length===0) {
-                $("#amount").text("￥0.00");
-                $(".item-count").text("0");
-                $(".pull-right,#nodeLink").attr("disabled", "disabled");
-                $(".panel").find(".row").eq(1).after("<div class='row cart-view-row'><div class='col-md-12 col-xs-12'><p class='text-center' style='margin:50px 100px;' >你的购物车为空!</p></div></div>");
-               }
-            });
-        })();
-
-
- 
-
-$('#show_cart').on('click', function (event) {
-
-  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-  var setting ={url:"/shop/cart",dataType:"html"};
-  $.get(setting).done(function(data){
-   // alert(data);
-     $("body").append(data);
-     $('#shopping_cart').modal('show');
-
-     $('#shopping_cart').on('click',"#btn-view-cart", function(){
-            window.location.assign('/shop/cart');
-     });
-
-     $("#shopping_cart").on('hidden.bs.modal',function(event){
-        var modal = $(this);
-        $(modal).remove();
-     });
-       
-  });
-
-});
-
-
-
-
-
-
-  
-    
+    $("#noteEditBtn").click(function() {
+        $("#noteEdit").val($("#noteShow").text());
+        $("#noteLink").hide();
+        $("#noteShowPanel").hide();
+        $("#note").show();
+    });
+})();

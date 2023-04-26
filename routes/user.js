@@ -30,10 +30,18 @@ router.get('/signup', function(req, res, next) {
 /*post signup*/
 
 router.post('/signup', passport.authenticate('local.signup', {
-    successRedirect: '/user/profile',
+   // successRedirect: '/user/profile',
     failureRedirect: '/user/signup',
     failureFlash: true
-}));
+}), function(req, res ,next){
+    if(req.session.oldUrl){
+        var oldUrl = req.session.oldUrl;
+        req.session.oldUrl = null;
+        res.redirect(oldUrl);
+    }else{
+         res.redirect('/user/profile');
+    }   
+});
 
 /*get signin*/
 router.get('/signin', function(req, res, next) {
@@ -42,10 +50,18 @@ router.get('/signin', function(req, res, next) {
 });
 
 router.post('/signin', passport.authenticate('local.signin', {
-    successRedirect: '/user/profile',
+    //successRedirect: '/user/profile',
     failureRedirect: '/user/signin',
     failureFlash: true
-}));
+}), function(req, res ,next){
+    if(req.session.oldUrl){
+        var oldUrl = req.session.oldUrl;
+        req.session.oldUrl = null;
+        res.redirect(oldUrl);
+    }else{
+         res.redirect('/user/profile');
+    }   
+});
 
 
 
@@ -55,7 +71,7 @@ function isLoggedIn(req, res, next) {
     if (req.isAuthenticated()) {
         return next();
     }
-    return res.redirect('/');
+    return res.redirect('/user/signin');
 }
 
 function notLoggedIn(req, res, next) {

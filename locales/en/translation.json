@@ -60,7 +60,9 @@
         "quantity":"Quantity:",
         "qqShare":"QQShare",
         "wechatShare":"WechatShare",
-        "weiboShare":"WeiboShare"
+        "weiboShare":"WeiboShare",
+         "number":"NO.",
+        "price":"Price"
     },
     "BLACK":"black",
      "RED":"red", 
@@ -80,6 +82,65 @@
         "view":"VIEW CART",
         "empty":"CART IS EMPTY!",
         "subtotal":"Subtotal:",
-        "checkout":"Checkout"
+        "checkout":"Checkout",
+        "product":"Prod",
+        "article":"Art",
+        "quantity":"Qty",
+        "amount":"Amt",
+        "addNote":"add note to seller",
+        "noteTo":"Note to seller",
+        "editNote":"edit note",
+        "delNote":"delete note",
+        "noteDone":"DONE",
+        "noteCancle":"CANCLE" ,
+        "noteHolder":"instruction?Special requests?Add them here.",
+        "checkoutPrompt":"Discounts, shipping and tax will be calculated in checkout.",
+        "remove":"Remove",
+        "add":"Add",
+        "reduce":"Reduce",
+         "cloMiniCart":"Close cart widget"
+     },
+       "care":{
+        "title1":"CUSTOMER CARE",
+        "title2":"Have any questions or concerns ? We’re always ready to help! Call",
+        "title3":"us at 157-1576-5111 or send us an email at",
+        "name":"Name",
+        "email":"Email",
+        "subject":"Subject",
+        "msg":"Message",
+        "faq":"FAQ",
+        "send":"send",
+        "failure": "Sending Failed!",
+        "success": "Successful Send,thanks!"
+     },
+       "footer":{
+        "title":"MAYRINO",
+        "manual":"CUSTOMER CARE",
+        "shopping":"Shopping Policy",
+        "returns":"Returns Policy",
+        "about":"About Us",
+        "contact":"Contact Us",
+        "store":"VIST OUR STORE",
+          "address":{
+            "title":"MAYRINO TEXTILE",
+            "street":"68 ShanHua Street JianGan",
+            "city":"HangZhou China",
+            "tel":"Tel:"
+            },
+        "connected":"STAY CONNECTED"
+     },
+       "about":{
+        "title":"ABOUT US",
+        "introduce":"We Are Focus On Develping And Selling Fabric, Garment, Hometextile And  Toys In The Fields Of Faux Fur",
+        "phone":"Phone:",
+        "contact":"MR. XIE"
+     },
+       "browse":{
+        "title":"Product Scan",
+        "content":"Autumn/Winter 2017",
+        "apparel":"Apparel",
+        "fabric":"Fabric",
+        "collar":"Collar",
+        "accessory":"Accessory"
      }
 }

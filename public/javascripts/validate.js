@@ -21,6 +21,15 @@ $.fn.validator = function(options) {
             },
             password:{
                 required: true
+            },
+             name:{
+                required: true
+            },
+             subject:{
+                required: true
+            },
+             message:{
+                required: true
             }
         },
 
@@ -40,7 +49,7 @@ $.fn.validator = function(options) {
                 (_popover).on("shown.bs.popover", function() {
                     setTimeout(function() {
                         (_popover).popover('hide');
-                    }, 10000);
+                    }, 5000);
                 });
                 // Bootstrap 3.x :      
                 _popover.data("bs.popover").options.content = value.message;

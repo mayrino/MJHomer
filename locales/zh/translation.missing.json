@@ -50,7 +50,8 @@
       "addToCart ": "product.addToCart ",
       "addToCar ": "product.addToCar ",
       "addToCar": "product.addToCar",
-      "type": "product.type"
+      "type": "product.type",
+      "numer": "product.numer"
    },
    "curProduct": {
       "type": "curProduct.type"
@@ -74,6 +75,19 @@
    "密码错误！": "密码错误！",
    "cart": {
       "view": "cart.view",
-      "empty": "cart.empty"
-   }
+      "empty": "cart.empty",
+      "checkout ": "cart.checkout ",
+      "product ": "cart.product ",
+      "article ": "cart.article ",
+      "quantity ": "cart.quantity ",
+      "amount ": "cart.amount ",
+      "reduce": "cart.reduce",
+      "cloMiniCart": "cart.cloMiniCart"
+   },
+   "editNote": "editNote",
+   "delNote": "delNote",
+   "care": {
+      "message": "care.message"
+   },
+   "Missing credentials": "Missing credentials"
 }

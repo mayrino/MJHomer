@@ -1,19 +1,19 @@
 <div role="navigation" class="container-fluid nav1">
-    <ul class="nav nav-pills  navbar-right" data-spy="affix" data-offset-top="60">
+    <ul class="nav nav-pills  navbar-right">
         <li role="presentation">
-            <a class="btn btn-primary btn-xs btn-link" rule="button" href="/?lng=zh">{{t "header.zh"}}</a>
+            <a class="btn btn-primary btn-xs btn-link" rule="button" href="?lng=zh{{#if paginate}}&page={{paginate.page}}&limit={{paginate.limit}}  {{/if}}">{{t "header.zh"}}</a>
         </li>
-        <li role="presentation"><a class="btn btn-primary btn-xs btn-link" rule="button" href="/?lng=en">
+        <li role="presentation"><a class="btn btn-primary btn-xs btn-link" rule="button" href="?lng=en{{#if paginate}}&page={{paginate.page}}&limit={{paginate.limit}} {{/if}}">
                 {{t "header.en"}}</a>
         </li>
         <li role="presentation">
-            <a type="button" class="btn btn-link btn-primary" id="show_cart" data-toggle="modal" data-target="#shopping_cart">
+            <a type="button" class="btn btn-link btn-primary" id="show_cart" >
                 <i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i>{{t "header.shoppingCart"}}<span class="hidden-xs badge">{{ session.cart.totalQty }}</span>
             </a>
         </li>
         <li class="divider-vertical hidden-xs"></li>
         <li class="dropdown" role="presentation">
-            <a href="#" class="btn btn-link btn-primary dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-fw" aria-hidden="true"></i>
+            <a href="#" class="btn btn-link btn-primary dropdown-toggle" data-toggle="dropdown" role="button" data-hover="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-fw" aria-hidden="true"></i>
 {{t "header.user" }}<span class="caret"></span></a>
             <ul class="dropdown-menu pull-right">
             {{#if login }}
@@ -47,7 +47,7 @@
             <div id="navbar" class="navbar-collapse  collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="/{{t 'lng' }}">{{t "header.home" }}</a></li>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{t "header.shop" }}<span class="caret"></span></a>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{t "header.shop" }}<span class="caret"></span></a>
                         <ul class="dropdown-menu  navbar-inverse">
                             <li><a href="/shop/garment">{{t "shop.garment" }}</a></li>
                             <li><a href="/shop/fabric">{{t "shop.fabric" }}</a></li>
@@ -59,7 +59,7 @@
                             <li><a href="/shop/novel">{{t "shop.novel" }}</a></li>
                         </ul>
                     </li>
-                    <li><a href="/product">{{t "header.product" }}</a></li>
+                    <li><a href="/browse">{{t "header.product" }}</a></li>
                     <li><a href="/about">{{t "header.who" }}</a></li>
                     <li><a href="/customerCare">{{t "header.serviceCenter" }}</a></li>
                 </ul>

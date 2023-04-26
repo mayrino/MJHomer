@@ -225,7 +225,7 @@ body {
 }
 
 .care-input {
-    margin-bottom: 5px;
+    margin-bottom: 12px;
     border: none;
     background-color: #CCBAB6;
     border-radius: 0px;
@@ -329,15 +329,15 @@ body {
     top: 0;
 }
 
-.bottom-bar>p {
+.bottom-bar p {
     font-size: 18px;
 }
 
-.bottom-bar>a {
+.bottom-bar a {
     font-size: 12px;
 }
 
-.bottom-bar>address {
+.bottom-bar address {
     font-size: 12px;
 }
 
@@ -604,6 +604,8 @@ body {
 
 
 
+
+
 /*below for detail page */
 
 .panel-detail {
@@ -709,6 +711,7 @@ body {
 }
 
 #detail-main-img img:hover,
+#detail-main-img img:focus,
 #detail-main-img img:active {
     cursor: crosshair;
 }
@@ -720,6 +723,8 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
+
+
 
 
 
@@ -757,7 +762,7 @@ body {
         top: 0;
         bottom: 0;
         width: 350px;
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
     .modal-content {
@@ -913,6 +918,8 @@ a.item-remove:focus {
 
 
 
+
+
 /* this css class for validate if invalid will pop a popover to display error message */
 
 .errorMeg {
@@ -935,7 +942,15 @@ a.item-remove:focus {
     padding: 0px;
 }
 
-.img-box:hover:before {
+.img-box img {
+
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    -moz-transition: -moz-transform 0.5s ease-out;
+    -o-transition: -o-transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+}
+
+.img-box:hover:after {
     content: '';
     position: absolute;
     top: 0;
@@ -948,29 +963,24 @@ a.item-remove:focus {
     cursor: -webkit-zoom-in;
 }
 
-.img-box .up-right {
+.img-box:hover img {
+
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+.img-box .img-box-detail p:first-child {
     display: none !important;
 }
 
-.img-box:hover .up-right {
+.img-box:hover .img-box-detail p:first-child {
     display: block !important;
-    position: absolute;
-    top: 10px;
-    right: 20px;
 }
 
-.img-box .down-right {
-    display: none !important;
-}
-
-.img-box:hover .down-right {
-    display: block !important;
-    position: absolute;
-    right: 20px;
-    bottom: 45px;
-}
-
-.img-box .img-box-detail a+a {
+.img-box .img-box-detail a+p {
     visibility: hidden;
 }
 
@@ -978,10 +988,12 @@ a.item-remove:focus {
     color: #245269;
 }
 
-.img-box:hover .img-box-detail a+a {
+.img-box:hover .img-box-detail a {
+    display: none !important;
+}
+
+.img-box:hover .img-box-detail a+p {
     visibility: visible;
-    position: relative;
-    text-decoration: none;
     color: #5cb85c;
 }
 
@@ -1041,12 +1053,7 @@ a.item-remove:focus {
     position: absolute;
     top: 10px;
     right: 25px;
-    "
-
 }
-
-
-
 
 /* signup and signin panel css */
 
@@ -1067,36 +1074,58 @@ a.item-remove:focus {
     border-top-left-radius: 3px;
     color: #ffffff;
 }
-
-.sign-body>div {
+.sign-body > div {
     height: 46px;
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.33;
     border-radius: 6px;
 }
-
 .sign-body {
     padding: 20px;
 }
-
 
 .sign-panel form {
     margin: 20px auto;
     color: #ffffff;
     font-variant: normal;
 }
-
 .sign-panel form button {
     margin-top: 20px;
 }
 
 .form-helper {
-
     text-align: center;
 }
-
-
 .form-helper p {
     color: #ffffff;
 }
+
+.fa.fa-plus:hover,
+.fa.fa-minus:hover {
+    cursor: pointer;
+}
+
+#mini-actions {
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+#mini-actions:hover,
+#mini-actions:focus {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.empty-cart {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 85px 5px;
+    margin-bottom: 20px;
+}
+
+.affix {
+    top: 0;
+}
+

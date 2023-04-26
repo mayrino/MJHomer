@@ -1,89 +1,96 @@
-<div class="mayrino-main-panel">
+<div class="mayrino-main-panel" style="margin-bottom: 20px;" id="cartview">
     <div class="panel panel-default panel-detail">
-        <div class="row" style="padding-bottom: 20px;">
-            <div class="col-md-3"><span style="font-size: 28px;">{{t "header.shoppingCart" }}(<span class="item-count" style="">{{ session.cart.totalQty }}</span>)</span>
-            </div>
-            <div class="col-md-9">
-                <button type="button" class="btn btn-lg pull-right cart-detail-btn" style="min-width: 283px;" {{#unless articles }} disabled="disabled" {{/unless}}>{{t "cart.checkout"}}</button>
-            </div>
-        </div>
-       {{#if articles }}
         <div class="row">
-            <div class="col-md-2 col-xs-3">
-                <span><h4><strong>产&nbsp;品</strong></h4></span>
+            <div class="col-md-3">
+                <h2>{{t "header.shoppingCart" }}(<span class="item-count">{{ session.cart.totalQty }}</span>)</h2>
             </div>
-            <div class="col-md-4 col-xs-3">
-                <span><h4><strong>商品</strong></h4></span>
+            <div class="col-md-6 col-md-offset-3">
+                <button type="button" data-btn="checkout" class="btn  btn-lg btn-block pull-right cart-detail-btn" {{#unless articles }} disabled="disabled" {{/unless}}>{{t "cart.checkout"}}</button>
+             </div>
+       </div>
+       {{#if articles }}
+       <div class="row hidden-xs">
+            <div class="col-md-2">
+                <h4><strong>{{t "cart.product" }}</strong></h4>
             </div>
-            <div class="col-md-3 col-xs-3">
-                <span class="text-center"><h4><strong>数量</strong></h4></span>
+            <div class="col-md-5">
+                <h4><strong>{{t "cart.article" }}</strong></h4>
             </div>
-            <div class="col-md-3 col-xs-3">
-                <span class="text-right"><h4><strong>金额</strong></h4></span>
+            <div class="col-md-3">
+                <h4><strong>{{t "cart.quantity" }}</strong></h4>
             </div>
-        </div>
+            <div class="col-md-2">
+             <h4><strong>{{t "cart.amount" }}</strong></h4>
+            </div>
+       </div>
+      
         {{#each articles }}
         <div class="row cart-view-row">
-            <div class="col-md-2 col-xs-3">
+            <div class="col-md-2">
                 {{#each this.item.imagePath }}
                 {{#if @first }}
                 <a><img src="{{this}}" class="img-responsive"></a>
                 {{/if }}
                 {{/each}}
             </div>
-            <div class="col-md-4 col-xs-3">
+            <div class="col-md-5">
                 <ul class="list-unstyled">
-                    <li><span>{{this.item.title}}</span></li>
-                    <li><span><small>编号：0018</small></span></li>
-                    <li><span><small>尺寸：M</small></span></li>
-                    <li><span><small>颜色：黑色</small></span></li>
-                    <li><span><small>价格：</span><span><s>$19.99</s></span><span>&nbsp;&nbsp;$14.99</span></small>
+                    <li><h4>{{this.item.title}}</h4></li>
+                    <li><span><small>{{../t "product.number" }}：{{this.item.number}}</small></span></li>
+                    <li><span><small>{{../t "product.size" }}：{{this.size}}</small></span></li>
+                    <li><span><small>{{../t "product.color" }}：{{this.color}}</small></span></li>
+                    <li><span><small>{{../t "product.price" }}：</span><span><s><i class="fa {{#xif ../ lng '===' 'en' }} fa-usd {{else}} fa-jpy {{/xif}} " aria-hidden="true "></i> {{this.item.price}}</s></span><span>&nbsp;&nbsp; <i class="fa {{#xif ../ lng '===' 'en' }} fa-usd {{else}} fa-jpy {{/xif}}" aria-hidden="true "></i>{{this.item.priceDiscount}}</span></small>
                     </li>
                 </ul>
-                <div><a class="btn-link item-remove"><small>移除</small></a></div>
+                <a class="btn-link item-remove" href="/shop/removeItem/{{ this.id }}" title="{{../t 'cart.remove' }}"><i class="fa fa-times-circle-o " aria-hidden="true"></i></a>
             </div>
-            <div class="col-md-3 col-xs-3 text-center">
-                <span aria-hidden="true" class="glyphicon glyphicon-minus" role="icon"></span>
-                <input type="text" value="10"  class="text-center" size="1" name="">
-                <input type="hidden" value="$19.99">
-                <span aria-hidden="true" class="glyphicon glyphicon-plus" role="icon"></span>
-            </div>
-            <div class="col-md-3 col-xs-3 text-right">
-                <span class="subtotal">$199.90</span>
+            <div class="col-md-3">
+                <i class="fa fa-minus" aria-hidden="true"></i>     
+                <input type="text" value="{{this.qty}}" data-item-id="{{this.id}}" class="text-center" size="1" name=""/>
+                <input type="hidden" value="{{this.item.priceDiscount}}"/>
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>       
+            <div class="col-md-2">
+                <span class=""><i class="subtotal fa {{#xif ../ lng '===' 'en' }} fa-usd {{else}} fa-jpy {{/xif}}" aria-hidden="true">{{ this.priceToStr }}</i></span>
             </div>
         </div>
         {{/each}}
-        <div class="row cart-view-row">
+        <dir class="row cart-view-row">
             <div class="col-md-6 col-xs-12">
-                <button id="nodeLink" class="btn btn-link node-link"><span class="glyphicon glyphicon-edit"></span>&nbsp;add note to seller</button>
-                <div id="nodeShowPanel" ><p><strong>Node to seller:</strong><span id="nodeShow"></span></p>
-                  <button id="nodeEditBtn" class="btn btn-link node-link"><span class="glyphicon glyphicon-edit"></span>&nbsp;edit node</button>
-                   <button id="nodeTrashBtn" class="btn btn-link node-link"><span class="glyphicon glyphicon-trash"></span>&nbsp;delete node</button>
+                <button id="noteLink" class="btn btn-link note-link"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbsp;{{t "cart.addNote"}}</button>
+                <div id="noteShowPanel">
+                    <p><strong>{{t "cart.noteTo"}}:</strong><span id="noteShow">{{ this.noteText }}</span></p>
+                    <button id="noteEditBtn" class="btn btn-link note-link"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbsp;{{t "cart.editNote"}}</button>
+                    <button id="noteTrashBtn" class="btn btn-link note-link"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp;{{t "cart.delNote"}}</button>
                 </div>
-                <div  class="form-group" id="node">
-                <textarea  class="form-control" rows=3"   id="nodeEdit" name="node-edit" placeholder="instruction?Special requests?Add them here."></textarea>
-                 <button  id="doneNodeBtn" class="btn pull-right done-link cart-detail-btn ">DONE</button>
-                   <button id="cancleNodeBtn" class="btn btn-link pull-right cancel-link">CANCEL</button>
-                  
-                </div>
-            </div>
+                <div class="form-group" id="note">
+                    <textarea class="form-control" rows="3"   id="noteEdit" name="note-edit" placeholder="{{t 'cart.noteHolder'}}"></textarea>
+                  <button  id="doneNoteBtn" class="btn pull-right done-link cart-detail-btn">{{t "cart.noteDone"}}</button>
+                   <button id="cancleNoteBtn" class="btn btn-link pull-right cancel-link">{{t "cart.noteCancle"}}</button>
+                  </div>
+            </div>      
        
-            <div class="col-md-6 col-xs-12 text-right">
-                <h4>总金额：<span id="amount">$219.89</span></h4>
-                <p>Discounts, shipping and tax will be calculated in checkout.
+            <div class="col-md-6  col-xs-12 text-right">
+                <h4>{{t "cart.subtotal"}}：<i id= "amount" class="fa {{#xif lng '===' 'en' }} fa-usd {{else}} fa-jpy {{/xif}} " aria-hidden="true ">{{ this.totalPrice }}</i></h4>
+                <p>{{t "cart.checkoutPrompt"}}
                 </p>
-            </div>
-        </div>
+             </div>
+        </div>  
           {{else}}
-              <h3 class="text-center">{{t "cart.empty" }}</h3>
+          <div class="empty-cart">
+
+             <h3 class="text-center">{{t "cart.empty" }}</h3>
+
+          </div>
+              
             {{/if}}
-       
-        <div class="row cart-view-row">
-            <div class="col-md-6">
-                <img class="img-responsive" width="180" src="/images/security-seal-2x.png"></div>
-            <div class="col-md-6">
-                <button type="button" class="btn btn-lg pull-right cart-detail-btn" style="min-width: 283px;max-width: 530px;"" {{#unless articles }} disabled="disabled" {{/unless}}>{{t "cart.checkout"}}</button>
+            <div class="row">
+                 <div class="col-md-3 hidden-xs">
+                   <img class="img-responsive" width="180" src="/images/security-seal-2x.png">
+                 </div>
+               <div class="col-md-6 col-md-offset-3">
+                <button type="button" data-btn="checkout" class="btn btn-lg btn-block pull-right cart-detail-btn" {{#unless articles }} disabled="disabled" {{/unless}}>{{t "cart.checkout"}}</button>
+                </div>
             </div>
-        </div>
-    </div>
+     </div>                  
 </div>
